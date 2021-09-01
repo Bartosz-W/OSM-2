@@ -4,22 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/cos.cpp \
 ../src/main.cpp \
 ../src/peripherals.cpp \
-../src/utilities.cpp \
-../src/z_starego.cpp 
+../src/utilities.cpp 
 
 OBJS += \
+./src/cos.o \
 ./src/main.o \
 ./src/peripherals.o \
-./src/utilities.o \
-./src/z_starego.o 
+./src/utilities.o 
 
 CPP_DEPS += \
+./src/cos.d \
 ./src/main.d \
 ./src/peripherals.d \
-./src/utilities.d \
-./src/z_starego.d 
+./src/utilities.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

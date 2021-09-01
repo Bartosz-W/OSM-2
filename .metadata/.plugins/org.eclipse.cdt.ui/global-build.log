@@ -164,3 +164,24 @@ g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\z_starego.o" "..\\s
 g++ "-LC:\\Users\\wegne\\Desktop\\Studia\\OSM-laby\\gierka\\RPiLAB_BASE\\Library" -static -static-libgcc -static-libstdc++ -shared -o RPiLAB_BASE.disc ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "src\\main.o" "src\\peripherals.o" "src\\utilities.o" "src\\z_starego.o" -lRPiLAB_DISC_LIB 
 g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.cpp" 
 Info: Nothing to build for RPiLAB_BASE
+21:39:59 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
+make all 
+Building file: ../src/cos.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/cos.d" -MT"src/cos.o" -c -o "src/cos.o" "../src/cos.cpp"
+Finished building: ../src/cos.cpp
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -std=gnu99 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -c -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: RPiLAB_BASE.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -T "C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\RPiLAB_BASE.ld" -nostartfiles -L"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library" -Wl,-Map,"RPiLAB_BASE.map" --specs=rdimon.specs -Wl,--start-group -lgcc -lc -lc -lm -lrdimon -Wl,--end-group -o "RPiLAB_BASE.elf"  ./src/cos.o ./src/main.o ./src/peripherals.o ./src/utilities.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -luspienv -luspi -lgcc
+Finished building target: RPiLAB_BASE.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O binary "RPiLAB_BASE.elf"  "RPiLAB_BASE.bin"
+Finished building: RPiLAB_BASE.bin
+ 

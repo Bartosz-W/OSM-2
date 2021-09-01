@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RPiLAB_BASE/src/cos&apos; to &apos;cos.cpp&apos;" description="Rename resource &apos;cos&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cos" name="cos.cpp" stamp="1630525116589" updateReferences="true"/>
+</session>
