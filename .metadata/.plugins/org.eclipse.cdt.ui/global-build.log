@@ -1,0 +1,166 @@
+21:24:05 **** Rebuild of configuration RPiSIM for project RPiLAB_BASE ****
+Info: Internal Builder is used for build
+gcc -DSIMULATOR -O3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\peripherals.o" "..\\src\\peripherals.cpp" 
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utilities.o" "..\\src\\utilities.cpp" 
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\z_starego.o" "..\\src\\z_starego.cpp" 
+..\src\z_starego.cpp:65:1: error: 'R_P_LCD_TMSLAB' does not name a type
+   65 | R_P_LCD_TMSLAB LCD;             // Obiekt obslugujacy LCD
+      | ^~~~~~~~~~~~~~
+..\src\z_starego.cpp:66:1: error: 'R_P_KEYBOARD_TMSLAB' does not name a type
+   66 | R_P_KEYBOARD_TMSLAB KEYBOARD;   // Obiekt obslugujacy klawiature
+      | ^~~~~~~~~~~~~~~~~~~
+..\src\z_starego.cpp:67:1: error: 'R_P_LEDBAR_TMSLAB' does not name a type
+   67 | R_P_LEDBAR_TMSLAB LEDBAR;       // Obiekt obslugujacy diody LED
+      | ^~~~~~~~~~~~~~~~~
+..\src\z_starego.cpp: In function 'int main()':
+..\src\z_starego.cpp:94:9: error: 'SetUpPeripherials' was not declared in this scope
+   94 |         SetUpPeripherials();
+      |         ^~~~~~~~~~~~~~~~~
+..\src\z_starego.cpp:107:9: error: 'KEYBOARD' was not declared in this scope
+  107 |         KEYBOARD.InitKB(100);
+      |         ^~~~~~~~
+..\src\z_starego.cpp:109:9: error: 'LEDBAR' was not declared in this scope
+  109 |         LEDBAR.InitLedBar();
+      |         ^~~~~~
+..\src\z_starego.cpp:113:9: error: 'EnableInterrupts' was not declared in this scope
+  113 |         EnableInterrupts();
+      |         ^~~~~~~~~~~~~~~~
+..\src\z_starego.cpp:118:13: error: 'LCD' was not declared in this scope
+  118 |             LCD.Synchronize();
+      |             ^~~
+..\src\z_starego.cpp:131:23: error: 'textEkran' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |                       ^~~~~~~~~
+..\src\z_starego.cpp:131:13: error: 'PrintText' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |             ^~~~~~~~~
+..\src\z_starego.cpp:138:13: error: 'DrawPixels' was not declared in this scope
+  138 |             DrawPixels(Key);
+      |             ^~~~~~~~~~
+..\src\z_starego.cpp: In function 'void InitData()':
+..\src\z_starego.cpp:276:13: error: 'textEkran' was not declared in this scope
+  276 |             textEkran[a] = ' ';
+      |             ^~~~~~~~~
+..\src\z_starego.cpp:280:21: error: 'rand' was not declared in this scope; did you mean 'randr'?
+  280 |             s[a] = (rand() & 0x1f) + 1;
+      |                     ^~~~
+      |                     randr
+21:24:19 **** Clean-only build of configuration RPiLAB for project RPiLAB_BASE ****
+make clean 
+rm -rf  ./src/main.o ./src/peripherals.o ./src/utilities.o  RPiLAB_BASE.bin  ./src/main.d ./src/peripherals.d ./src/utilities.d  RPiLAB_BASE.elf
+ 
+21:24:19 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/peripherals.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/peripherals.d" -MT"src/peripherals.o" -c -o "src/peripherals.o" "../src/peripherals.cpp"
+Finished building: ../src/peripherals.cpp
+ 
+Building file: ../src/utilities.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/utilities.d" -MT"src/utilities.o" -c -o "src/utilities.o" "../src/utilities.cpp"
+Finished building: ../src/utilities.cpp
+ 
+Building file: ../src/z_starego.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/z_starego.d" -MT"src/z_starego.o" -c -o "src/z_starego.o" "../src/z_starego.cpp"
+../src/z_starego.cpp:65:1: error: 'R_P_LCD_TMSLAB' does not name a type
+   65 | R_P_LCD_TMSLAB LCD;             // Obiekt obslugujacy LCD
+      | ^~~~~~~~~~~~~~
+../src/z_starego.cpp:66:1: error: 'R_P_KEYBOARD_TMSLAB' does not name a type
+   66 | R_P_KEYBOARD_TMSLAB KEYBOARD;   // Obiekt obslugujacy klawiature
+      | ^~~~~~~~~~~~~~~~~~~
+../src/z_starego.cpp:67:1: error: 'R_P_LEDBAR_TMSLAB' does not name a type
+   67 | R_P_LEDBAR_TMSLAB LEDBAR;       // Obiekt obslugujacy diody LED
+      | ^~~~~~~~~~~~~~~~~
+../src/z_starego.cpp: In function 'int main()':
+../src/z_starego.cpp:94:9: error: 'SetUpPeripherials' was not declared in this scope
+   94 |         SetUpPeripherials();
+      |         ^~~~~~~~~~~~~~~~~
+../src/z_starego.cpp:107:9: error: 'KEYBOARD' was not declared in this scope
+  107 |         KEYBOARD.InitKB(100);
+      |         ^~~~~~~~
+../src/z_starego.cpp:109:9: error: 'LEDBAR' was not declared in this scope
+  109 |         LEDBAR.InitLedBar();
+      |         ^~~~~~
+../src/z_starego.cpp:118:13: error: 'LCD' was not declared in this scope
+  118 |             LCD.Synchronize();
+      |             ^~~
+../src/z_starego.cpp:131:23: error: 'textEkran' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |                       ^~~~~~~~~
+../src/z_starego.cpp:131:13: error: 'PrintText' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |             ^~~~~~~~~
+../src/z_starego.cpp:138:13: error: 'DrawPixels' was not declared in this scope
+  138 |             DrawPixels(Key);
+      |             ^~~~~~~~~~
+../src/z_starego.cpp: In function 'void InitData()':
+../src/z_starego.cpp:276:13: error: 'textEkran' was not declared in this scope
+  276 |             textEkran[a] = ' ';
+      |             ^~~~~~~~~
+../src/z_starego.cpp:280:21: error: 'rand' was not declared in this scope; did you mean 'randr'?
+  280 |             s[a] = (rand() & 0x1f) + 1;
+      |                     ^~~~
+      |                     randr
+make: *** [src/z_starego.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:28 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
+make all 
+Building file: ../src/z_starego.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/z_starego.d" -MT"src/z_starego.o" -c -o "src/z_starego.o" "../src/z_starego.cpp"
+../src/z_starego.cpp:65:1: error: 'R_P_LCD_TMSLAB' does not name a type
+   65 | R_P_LCD_TMSLAB LCD;             // Obiekt obslugujacy LCD
+      | ^~~~~~~~~~~~~~
+../src/z_starego.cpp:66:1: error: 'R_P_KEYBOARD_TMSLAB' does not name a type
+   66 | R_P_KEYBOARD_TMSLAB KEYBOARD;   // Obiekt obslugujacy klawiature
+      | ^~~~~~~~~~~~~~~~~~~
+../src/z_starego.cpp:67:1: error: 'R_P_LEDBAR_TMSLAB' does not name a type
+   67 | R_P_LEDBAR_TMSLAB LEDBAR;       // Obiekt obslugujacy diody LED
+      | ^~~~~~~~~~~~~~~~~
+../src/z_starego.cpp: In function 'int main()':
+../src/z_starego.cpp:94:9: error: 'SetUpPeripherials' was not declared in this scope
+   94 |         SetUpPeripherials();
+      |         ^~~~~~~~~~~~~~~~~
+../src/z_starego.cpp:107:9: error: 'KEYBOARD' was not declared in this scope
+  107 |         KEYBOARD.InitKB(100);
+      |         ^~~~~~~~
+../src/z_starego.cpp:109:9: error: 'LEDBAR' was not declared in this scope
+  109 |         LEDBAR.InitLedBar();
+      |         ^~~~~~
+../src/z_starego.cpp:118:13: error: 'LCD' was not declared in this scope
+  118 |             LCD.Synchronize();
+      |             ^~~
+../src/z_starego.cpp:131:23: error: 'textEkran' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |                       ^~~~~~~~~
+../src/z_starego.cpp:131:13: error: 'PrintText' was not declared in this scope
+  131 |             PrintText(textEkran, Bufor1, 12, 19, 1);
+      |             ^~~~~~~~~
+../src/z_starego.cpp:138:13: error: 'DrawPixels' was not declared in this scope
+  138 |             DrawPixels(Key);
+      |             ^~~~~~~~~~
+../src/z_starego.cpp: In function 'void InitData()':
+../src/z_starego.cpp:276:13: error: 'textEkran' was not declared in this scope
+  276 |             textEkran[a] = ' ';
+      |             ^~~~~~~~~
+../src/z_starego.cpp:280:21: error: 'rand' was not declared in this scope; did you mean 'randr'?
+  280 |             s[a] = (rand() & 0x1f) + 1;
+      |                     ^~~~
+      |                     randr
+make: *** [src/z_starego.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:39 **** Incremental Build of configuration RPiSIM for project RPiLAB_BASE ****
+Info: Internal Builder is used for build
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\z_starego.o" "..\\src\\z_starego.cpp" 
+g++ "-LC:\\Users\\wegne\\Desktop\\Studia\\OSM-laby\\gierka\\RPiLAB_BASE\\Library" -static -static-libgcc -static-libstdc++ -shared -o RPiLAB_BASE.disc ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "src\\main.o" "src\\peripherals.o" "src\\utilities.o" "src\\z_starego.o" -lRPiLAB_DISC_LIB 
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.cpp" 
+Info: Nothing to build for RPiLAB_BASE

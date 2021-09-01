@@ -1,0 +1,1730 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+                              ./src/main.o (ScreenDeviceClearDisplay)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+                              ./src/main.o (String)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+                              ./src/main.o (StartKernelTimer)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+                              ./src/main.o (USPiEnvInitialize)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o) (memset)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o) (memcpyblk)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o) (MemorySystem)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o) (PageTable)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o) (ExceptionHandler2)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+                              ./src/utilities.o (_start)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o) (mem_init)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o) (BcmFrameBuffer)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o) (BcmPropertyTags)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o) (CharGenerator)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o) (UndefinedInstructionStub)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o) (InterruptSystem)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o) (__aeabi_uidiv)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o) (Logger)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o) (read32)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o) (EnterCritical)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o) (sysinit)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o) (Timer)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o) (BcmMailBox)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o) (DelayLoop)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o) (Divide)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+                              ./src/main.o (USPiInitialize)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (DWHCIDevice)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o) (DWHCIRegister)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o) (_DWHCITransferStageData)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o) (USBDeviceGetAddress)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o) (USBEndpoint)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o) (USBRequest)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (DeviceNameService)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (MACAddressCopyTo)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (SMSC951xDeviceGetMACAddress)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o) (uspi_memset)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (USBBulkOnlyMassStorageDeviceSeek)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o) (DWHCIFrameSchedulerNonPeriodic)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o) (DWHCIFrameSchedulerPeriodic)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (USBKeyboardDeviceRegisterKeyPressedHandler)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o) (DWHCIRootPort)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (USBMouseDeviceRegisterStatusHandler)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o) (DWHCIFrameSchedulerNoSplit)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o) (USBGamePadDeviceRegisterStatusHandler)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o) (uspi_EnterCritical)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o) (USBString)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o) (USBConfigurationParser)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o) (USBDeviceFactoryGetDevice)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o) (USBStandardHub)
+C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+                              C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o) (KeyMap)
+c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+                              ./src/utilities.o (__aeabi_dcmpge)
+c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                              ./src/main.o (__aeabi_unwind_cpp_pr0)
+c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+                              c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                              c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+
+Allocating common symbols
+Common symbol       size              file
+
+gpio                0x4               C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00100000         0x00200000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\librdimon.a
+END GROUP
+LOAD ./src/main.o
+LOAD ./src/peripherals.o
+LOAD ./src/utilities.o
+LOAD C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a
+LOAD C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libstdc++.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libm.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libc.a
+START GROUP
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libc.a
+END GROUP
+START GROUP
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libc.a
+LOAD c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\librdimon.a
+END GROUP
+                0x00100000                . = 0x100000
+
+.begin          0x00100000        0x4
+ *(.begin)
+ .begin         0x00100000        0x4 ./src/utilities.o
+                0x00100000                __start
+
+.text           0x00100008     0xe838
+ *(.text*)
+ .text          0x00100008      0xbd8 ./src/main.o
+                0x00100008                _Z12TimerHandlerjPvS_
+                0x0010009c                _Z8TimerIsrv
+                0x00100114                _Z11DrawObjectsv
+                0x001007ec                _Z11ClearScreenv
+                0x001008ac                _Z19PrintDiagnosticInfov
+                0x00100964                _Z11DataPreparev
+                0x00100ab8                _Z11Synchronizev
+                0x00100aec                _Z10SystemInitv
+                0x00100bcc                _Z8UpdateIOv
+ .text.startup  0x00100be0      0x104 ./src/main.o
+                0x00100be0                main
+ .text          0x00100ce4      0x2c4 ./src/peripherals.o
+                0x00100ce4                _Z8checkKeyi
+                0x00100d44                _Z6getKeyv
+                0x00100d8c                _Z9uart_initv
+                0x00100ea0                _Z16KeyboardHandlerAhPKh
+                0x00100f0c                _Z21GamePadStatusHandlerAjPK16USPiGamePadState
+                0x00100f74                _Z10StringUartPKc
+ .text          0x00100fa8      0x1c0 ./src/utilities.o
+                0x00100fa8                getNumberLenght
+                0x00101114                power
+                0x0010113c                randr
+ .text.unlikely
+                0x00101168        0x4 ./src/utilities.o
+                0x00101168                abort
+ *fill*         0x0010116c        0x4 
+ .text          0x00101170     0x1714 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+                0x00101170                ScreenDevice
+                0x001011c0                _ScreenDevice
+                0x001011f0                ScreenDeviceGetWidth
+                0x001011f8                ScreenDeviceGetHeight
+                0x00101200                ScreenDeviceSetPixel
+                0x00101228                ScreenDeviceGetPixel
+                0x00101260                ScreenDeviceCarriageReturn
+                0x0010126c                ScreenDeviceCursorHome
+                0x0010127c                ScreenDeviceCursorLeft
+                0x001012e4                ScreenDeviceCursorMove
+                0x00101338                ScreenDeviceCursorUp
+                0x00101370                ScreenDeviceDeleteChars
+                0x00101374                ScreenDeviceDeleteLines
+                0x00101378                ScreenDeviceInsertLines
+                0x0010137c                ScreenDeviceInsertMode
+                0x00101384                ScreenDeviceReverseScroll
+                0x00101388                ScreenDeviceSetCursorMode
+                0x00101390                ScreenDeviceSetStandoutMode
+                0x00101438                ScreenDeviceScroll
+                0x001014a0                ScreenDeviceCursorDown
+                0x001014ec                ScreenDeviceNewLine
+                0x00101500                ScreenDeviceCursorRight
+                0x00101534                ScreenDeviceTabulator
+                0x00101578                ScreenDeviceDisplayChar2
+                0x00101614                ScreenDeviceRotor
+                0x00101670                ScreenDeviceDisplayChar
+                0x001016b0                ScreenDeviceEraseChar
+                0x0010171c                ScreenDeviceClearLineEnd
+                0x00101764                ScreenDeviceClearDisplayEnd
+                0x001017ac                ScreenDeviceEraseChars
+                0x00101814                ScreenDeviceWrite2
+                0x00101cf4                ScreenDeviceInvertCursor
+                0x00101d90                ScreenDeviceInitialize
+                0x00101e7c                ScreenDeviceWrite
+                0x00101ecc                ScreenDeviceDrawLine
+                0x00101f50                ScreenDeviceDrawDottedLine
+                0x00101fe8                ScreenDeviceDrawRect
+                0x00102048                ScreenDeviceClearDisplay
+                0x00102084                ScreenDeviceFillDisplay
+                0x001020b0                ScreenDeviceDrawChartCaption
+                0x001021e0                ScreenDeviceDrawChartCaptionOXAll
+                0x00102318                ScreenDeviceDrawChartCaptionOYAll
+                0x00102440                ScreenDeviceDrawChartCaptionOYAllCounter
+                0x001024c8                ScreenDeviceDrawDottedBackground
+                0x00102630                ScreenDeviceDrawChart
+ *fill*         0x00102884        0x4 
+ .text          0x00102888      0xa6c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+                0x00102888                String
+                0x00102898                String2
+                0x001028c8                _String
+                0x001028f0                StringGet
+                0x00102908                StringSet
+                0x00102950                StringGetLength
+                0x00102970                StringAppend
+                0x00102a00                StringCompare
+                0x00102a10                StringFind
+                0x00102a60                StringReserveSpace
+                0x00102ad0                StringPutChar
+                0x00102b14                StringPutString
+                0x00102b54                ntoa
+                0x00102c14                StringFormatV
+                0x001032c8                StringFormat
+ .text          0x001032f4      0x1e0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+                0x001032f4                MsDelay
+                0x0010330c                usDelay
+                0x00103324                StartKernelTimer
+                0x0010335c                CancelKernelTimer
+                0x00103374                ConnectInterrupt
+                0x0010339c                SetPowerStateOn
+                0x00103418                GetMACAddress
+                0x0010348c                LogWrite
+ .text          0x001034d4      0x150 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+                0x001034d4                USPiEnvInitialize
+                0x001035dc                USPiEnvClose
+                0x00103618                USPiEnvGetScreen
+ .text          0x00103624      0x2a8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+                0x00103624                memset
+                0x00103644                memcpy
+                0x00103668                memcmp
+                0x001036e0                strlen
+                0x00103710                strcmp
+                0x001037b4                strcpy
+                0x001037e8                strncpy
+                0x0010383c                strcat
+                0x00103888                char2int
+                0x00103898                le2be16
+                0x001038a8                le2be32
+ .text          0x001038cc       0x20 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+                0x001038cc                memcpyblk
+ .text          0x001038ec      0x170 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+                0x001038ec                _MemorySystem
+                0x00103948                MemorySystemGetMemSize
+                0x00103950                MemorySystemEnableMMU
+                0x001039ac                MemorySystem
+ .text          0x00103a5c      0x19c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+                0x00103a5c                PageTable
+                0x00103af4                PageTable2
+                0x00103bc4                _PageTable
+                0x00103bec                PageTableGetBaseAddress
+ .text          0x00103bf8      0x1ac C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+                0x00103bf8                ExceptionHandler2
+                0x00103c70                _ExceptionHandler
+                0x00103c84                ExceptionHandlerThrow
+                0x00103cc0                ExceptionHandlerThrow2
+                0x00103d70                ExceptionHandlerGet
+                0x00103d80                ExceptionHandler
+ .text          0x00103da4       0x70 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+                0x00103da4                _start
+                0x00103e08                _start_secondary
+ .text          0x00103e14      0x26c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+                0x00103e14                mem_init
+                0x00103e58                mem_get_size
+                0x00103e80                malloc
+                0x00103f6c                free
+                0x00103fdc                palloc
+                0x0010404c                pfree
+ .text          0x00104080      0x208 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+                0x00104080                BcmFrameBuffer
+                0x001041b0                _BcmFrameBuffer
+                0x001041d4                BcmFrameBufferSetPalette
+                0x001041f0                BcmFrameBufferInitialize
+                0x0010423c                BcmFrameBufferGetWidth
+                0x00104248                BcmFrameBufferGetHeight
+                0x00104254                BcmFrameBufferGetPitch
+                0x00104260                BcmFrameBufferGetDepth
+                0x0010426c                BcmFrameBufferGetBuffer
+                0x0010427c                BcmFrameBufferGetSize
+ .text          0x00104288      0x108 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+                0x00104288                BcmPropertyTags
+                0x00104298                _BcmPropertyTags
+                0x001042a4                BcmPropertyTagsGetTag
+ .text          0x00104390       0x7c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+                0x00104390                CharGenerator
+                0x0010439c                _CharGenerator
+                0x001043a0                CharGeneratorGetCharWidth
+                0x001043a8                CharGeneratorGetCharHeight
+                0x001043b0                CharGeneratorGetUnderline
+                0x001043b8                CharGeneratorGetPixel
+ .text          0x0010440c       0xe0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+                0x0010440c                UndefinedInstructionStub
+                0x00104450                PrefetchAbortStub
+                0x00104494                DataAbortStub
+                0x001044d8                IRQStub
+ .text          0x001044ec      0x2e0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+                0x001044ec                InterruptSystem
+                0x0010451c                _InterruptSystem
+                0x00104530                InterruptSystemInitialize
+                0x00104610                InterruptSystemEnableIRQ
+                0x00104660                InterruptSystemConnectIRQ
+                0x0010467c                InterruptSystemDisableIRQ
+                0x001046cc                InterruptSystemDisconnectIRQ
+                0x001046f4                InterruptSystemGet
+                0x00104704                InterruptSystemCallIRQHandler
+                0x00104738                InterruptHandler
+ .text          0x001047cc       0x50 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+                0x001047cc                __aeabi_uidiv
+                0x001047dc                __aeabi_uidivmod
+                0x001047f8                PUT32
+                0x00104800                PUT16
+                0x00104808                PUT8
+                0x00104810                GET32
+                0x00104818                dummy
+ .text          0x0010481c      0x324 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+                0x0010481c                Logger
+                0x0010483c                _Logger
+                0x00104858                LoggerInitialize
+                0x00104864                LoggerGet
+                0x00104874                LoggerWrite2
+                0x0010489c                LoggerWriteV
+                0x00104b10                LoggerWrite
+ .text          0x00104b40       0x10 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+                0x00104b40                read32
+                0x00104b48                write32
+ .text          0x00104b50      0x210 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+                0x00104b50                EnterCritical
+                0x00104b8c                LeaveCritical
+                0x00104bc0                InvalidateDataCache
+                0x00104c48                CleanDataCache
+                0x00104cd0                InvalidateDataCacheRange
+                0x00104d00                CleanDataCacheRange
+                0x00104d30                CleanAndInvalidateDataCacheRange
+ .text          0x00104d60       0xc8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+                0x00104d60                halt
+                0x00104d68                reboot
+                0x00104d9c                sysinit
+ .text          0x00104e28      0x4a0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x00104e28                Timer
+                0x00104e90                _Timer
+                0x00104ea4                TimerGetClockTicks
+                0x00104ec0                TimerGetTicks
+                0x00104ec8                TimerGetTime
+                0x00104ed0                TimerGetTimeString
+                0x00104f8c                TimerStartKernelTimer
+                0x0010502c                TimerCancelKernelTimer
+                0x00105040                TimerMsDelay
+                0x0010505c                TimerusDelay
+                0x00105078                TimerGet
+                0x00105088                TimerSimpleusDelay
+                0x001050d0                TimerSimpleMsDelay
+                0x001050ec                TimerPollKernelTimers
+                0x00105150                TimerInterruptHandler
+                0x00105200                TimerTuneMsDelay
+                0x00105260                TimerInitialize
+ .text          0x001052c8       0xfc C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+                0x001052c8                BcmMailBox
+                0x001052d0                _BcmMailBox
+                0x001052d4                BcmMailBoxFlush
+                0x00105310                BcmMailBoxRead
+                0x00105358                BcmMailBoxWrite
+                0x00105394                BcmMailBoxWriteRead
+ *fill*         0x001053c4        0x4 
+ .text          0x001053c8        0xc C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+                0x001053c8                DelayLoop
+ .text          0x001053d4       0xc0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+                0x001053d4                Divide
+ .text          0x00105494      0x72c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+                0x00105494                USPiInitialize
+                0x00105678                USPiKeyboardAvailable
+                0x00105694                USPiKeyboardRegisterKeyPressedHandler
+                0x001056b4                USPiKeyboardRegisterShutdownHandler
+                0x001056d4                USPiKeyboardRegisterKeyStatusHandlerRaw
+                0x001056f4                USPiMouseAvailable
+                0x00105710                USPiMouseRegisterStatusHandler
+                0x00105730                USPiMassStorageDeviceAvailable
+                0x0010578c                USPiMassStorageDeviceRead
+                0x0010581c                USPiMassStorageDeviceWrite
+                0x001058ac                USPiMassStorageDeviceGetCapacity
+                0x001058ec                USPiEthernetAvailable
+                0x00105908                USPiGetMACAddress
+                0x00105930                USPiSendFrame
+                0x0010595c                USPiReceiveFrame
+                0x00105988                USPiGamePadAvailable
+                0x001059e4                USPiGamePadRegisterStatusHandler
+                0x00105a24                USPiGamePadGetStatus
+                0x00105a84                USPiDeviceGetInformation
+ .text          0x00105bc0     0x1bcc C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+                0x00105bc0                DWHCIDeviceCompletionRoutine
+                0x00105bcc                DWHCIDevice
+                0x00105c0c                _DWHCIDevice
+                0x00105c1c                DWHCIDeviceEnableGlobalInterrupts
+                0x00105c60                DWHCIDeviceEnableCommonInterrupts
+                0x00105c98                DWHCIDeviceEnableHostInterrupts
+                0x00105cf4                DWHCIDeviceEnableChannelInterrupt
+                0x00105d48                DWHCIDeviceDisableChannelInterrupt
+                0x00105d9c                DWHCIDeviceStartChannel
+                0x00106110                DWHCIDeviceStartTransaction
+                0x001061d4                DWHCIDeviceTimerHandler
+                0x00106240                DWHCIDeviceAllocateChannel
+                0x001062bc                DWHCIDeviceFreeChannel
+                0x001062e4                DWHCIDeviceTransferStageAsync
+                0x001063f4                DWHCIDeviceSubmitAsyncRequest
+                0x00106438                DWHCIDeviceTransferStage
+                0x001064ac                DWHCIDeviceSubmitBlockingRequest
+                0x00106620                DWHCIDeviceControlMessage
+                0x001066c0                DWHCIDeviceGetDescriptor
+                0x001066fc                DWHCIDeviceSetAddress
+                0x00106748                DWHCIDeviceSetConfiguration
+                0x00106794                DWHCIDeviceTransfer
+                0x001067ec                DWHCIDeviceChannelInterruptHandler
+                0x00106d04                DWHCIDeviceInterruptHandler
+                0x00106df4                DWHCIDeviceWaitForBit
+                0x00106e58                DWHCIDeviceEnableRootPort
+                0x00106f24                DWHCIDeviceReset
+                0x00106fd8                DWHCIDeviceInitCore
+                0x001071a4                DWHCIDeviceFlushTxFIFO
+                0x00107230                DWHCIDeviceFlushRxFIFO
+                0x001072a0                DWHCIDeviceInitHost
+                0x0010749c                DWHCIDeviceInitialize
+                0x001076a0                DWHCIDeviceGetPortSpeed
+                0x001076fc                DWHCIDeviceOvercurrentDetected
+                0x00107748                DWHCIDeviceDisableRootPort
+ .text          0x0010778c       0xf8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+                0x0010778c                DWHCIRegister
+                0x0010779c                DWHCIRegister2
+                0x001077b0                _DWHCIRegister
+                0x001077bc                DWHCIRegisterRead
+                0x001077d8                DWHCIRegisterWrite
+                0x001077e8                DWHCIRegisterGet
+                0x001077f0                DWHCIRegisterSet
+                0x00107800                DWHCIRegisterIsSet
+                0x00107814                DWHCIRegisterAnd
+                0x00107824                DWHCIRegisterOr
+                0x00107834                DWHCIRegisterClearBit
+                0x00107848                DWHCIRegisterSetBit
+                0x0010785c                DWHCIRegisterClearAll
+                0x00107870                DWHCIRegisterSetAll
+ .text          0x00107884      0x500 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+                0x00107884                _DWHCITransferStageData
+                0x001078e4                DWHCITransferStageDataTransactionComplete
+                0x001079c0                DWHCITransferStageDataSetSplitComplete
+                0x001079c8                DWHCITransferStageDataSetState
+                0x001079d0                DWHCITransferStageDataGetState
+                0x001079d8                DWHCITransferStageDataSetSubState
+                0x001079e0                DWHCITransferStageDataGetSubState
+                0x001079e8                DWHCITransferStageDataBeginSplitCycle
+                0x001079f0                DWHCITransferStageDataGetChannelNumber
+                0x001079f8                DWHCITransferStageDataIsPeriodic
+                0x00107a1c                DWHCITransferStageData
+                0x00107c28                DWHCITransferStageDataGetDeviceAddress
+                0x00107c38                DWHCITransferStageDataGetEndpointType
+                0x00107c64                DWHCITransferStageDataGetEndpointNumber
+                0x00107c74                DWHCITransferStageDataGetMaxPacketSize
+                0x00107c7c                DWHCITransferStageDataGetSpeed
+                0x00107c84                DWHCITransferStageDataGetPID
+                0x00107cb4                DWHCITransferStageDataIsDirectionIn
+                0x00107cbc                DWHCITransferStageDataIsStatusStage
+                0x00107cc4                DWHCITransferStageDataGetDMAAddress
+                0x00107ccc                DWHCITransferStageDataGetBytesToTransfer
+                0x00107cd4                DWHCITransferStageDataGetPacketsToTransfer
+                0x00107cdc                DWHCITransferStageDataIsSplit
+                0x00107ce4                DWHCITransferStageDataIsSplitComplete
+                0x00107cec                DWHCITransferStageDataGetHubAddress
+                0x00107cfc                DWHCITransferStageDataGetHubPortAddress
+                0x00107d0c                DWHCITransferStageDataGetSplitPosition
+                0x00107d14                DWHCITransferStageDataGetStatusMask
+                0x00107d48                DWHCITransferStageDataGetTransactionStatus
+                0x00107d50                DWHCITransferStageDataIsStageComplete
+                0x00107d60                DWHCITransferStageDataGetResultLen
+                0x00107d74                DWHCITransferStageDataGetURB
+                0x00107d7c                DWHCITransferStageDataGetFrameScheduler
+ .text          0x00107d84      0x724 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+                0x00107d84                USBDeviceConfigure
+                0x00107de4                USBDevice
+                0x00107e50                USBDeviceCopy
+                0x00107f44                _USBDevice
+                0x00107fdc                USBDeviceGetName
+                0x001080cc                USBDeviceGetAddress
+                0x001080d4                USBDeviceGetSpeed
+                0x001080dc                USBDeviceGetHubAddress
+                0x001080e4                USBDeviceGetHubPortNumber
+                0x001080ec                USBDeviceGetEndpoint0
+                0x001080f4                USBDeviceGetHost
+                0x001080fc                USBDeviceGetDeviceDescriptor
+                0x00108104                USBDeviceGetConfigurationDescriptor
+                0x0010810c                USBDeviceGetDescriptor
+                0x0010811c                USBDeviceConfigurationError
+                0x0010812c                USBDeviceInitialize
+                0x001084a0                USBDeviceSetAddress
+ .text          0x001084a8      0x208 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+                0x001084a8                USBEndpoint
+                0x001084d4                USBEndpoint2
+                0x001085bc                USBEndpointCopy
+                0x001085f4                _USBEndpoint
+                0x00108600                USBEndpointGetDevice
+                0x00108608                USBEndpointGetNumber
+                0x00108610                USBEndpointGetType
+                0x00108618                USBEndpointIsDirectionIn
+                0x00108620                USBEndpointSetMaxPacketSize
+                0x00108628                USBEndpointGetMaxPacketSize
+                0x00108630                USBEndpointGetInterval
+                0x00108638                USBEndpointGetNextPID
+                0x00108648                USBEndpointSkipPID
+                0x001086a4                USBEndpointResetPID
+ .text          0x001086b0       0xb0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+                0x001086b0                USBRequest
+                0x001086e0                _USBRequest
+                0x001086f8                USBRequestGetEndpoint
+                0x00108700                USBRequestSetStatus
+                0x00108708                USBRequestSetResultLen
+                0x00108710                USBRequestGetStatus
+                0x00108718                USBRequestGetResultLength
+                0x00108720                USBRequestGetSetupData
+                0x00108728                USBRequestGetBuffer
+                0x00108730                USBRequestGetBufLen
+                0x00108738                USBRequestSetCompletionRoutine
+                0x00108748                USBRequestCallCompletionRoutine
+ .text          0x00108760      0x14c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+                0x00108760                DeviceNameService
+                0x00108778                _DeviceNameService
+                0x001087ec                DeviceNameServiceAddDevice
+                0x00108840                DeviceNameServiceGetDevice
+                0x0010889c                DeviceNameServiceGet
+ .text          0x001088ac      0x140 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+                0x001088ac                MACAddress
+                0x001088b8                _MACAddress
+                0x001088c4                MACAddressIsEqual
+                0x001088e4                MACAddressSet
+                0x00108904                MACAddress2
+                0x00108910                MACAddressSetBroadcast
+                0x00108934                MACAddressGet
+                0x0010893c                MACAddressCopyTo
+                0x00108958                MACAddressIsBroadcast
+                0x00108998                MACAddressGetSize
+                0x001089a0                MACAddressFormat
+ .text          0x001089ec      0x65c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+                0x001089ec                SMSC951xDevice
+                0x00108a20                _SMSC951xDevice
+                0x00108a8c                SMSC951xDeviceGetMACAddress
+                0x00108a94                SMSC951xDeviceSendFrame
+                0x00108af8                SMSC951xDeviceReceiveFrame
+                0x00108bf8                SMSC951xDeviceWriteReg
+                0x00108c60                SMSC951xDeviceConfigure
+                0x00108fe0                SMSC951xDeviceReadReg
+ .text          0x00109048      0x2a8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+                0x00109048                uspi_memset
+                0x00109068                uspi_memcpy
+                0x0010908c                uspi_memcmp
+                0x00109104                uspi_strlen
+                0x00109134                uspi_strcmp
+                0x001091d8                uspi_strcpy
+                0x0010920c                uspi_strncpy
+                0x00109260                uspi_strcat
+                0x001092ac                uspi_char2int
+                0x001092bc                uspi_le2be16
+                0x001092cc                uspi_le2be32
+ .text          0x001092f0      0xb54 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+                0x001092f0                USBBulkOnlyMassStorageDevice
+                0x0010932c                _USBBulkOnlyMassStorageDevice
+                0x00109380                USBBulkOnlyMassStorageDeviceSeek
+                0x00109390                USBBulkOnlyMassStorageDeviceGetCapacity
+                0x00109398                USBBulkOnlyMassStorageDeviceCommand
+                0x001095a0                USBBulkOnlyMassStorageDeviceConfigure
+                0x00109a78                USBBulkOnlyMassStorageDeviceTryRead
+                0x00109b70                USBBulkOnlyMassStorageDeviceTryWrite
+                0x00109c64                USBBulkOnlyMassStorageDeviceReset
+                0x00109d9c                USBBulkOnlyMassStorageDeviceRead
+                0x00109df0                USBBulkOnlyMassStorageDeviceWrite
+ .text          0x00109e44      0x190 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+                0x00109e44                _DWHCIFrameSchedulerNonPeriodic
+                0x00109e50                DWHCIFrameSchedulerNonPeriodicStartSplit
+                0x00109e5c                DWHCIFrameSchedulerNonPeriodicWaitForFrame
+                0x00109e60                DWHCIFrameSchedulerNonPeriodicIsOddFrame
+                0x00109e68                DWHCIFrameSchedulerNonPeriodicCompleteSplit
+                0x00109eb8                DWHCIFrameSchedulerNonPeriodicTransactionComplete
+                0x00109f80                DWHCIFrameSchedulerNonPeriodic
+ .text          0x00109fd4      0x218 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+                0x00109fd4                _DWHCIFrameSchedulerPeriodic
+                0x00109fe0                DWHCIFrameSchedulerPeriodicStartSplit
+                0x00109ff4                DWHCIFrameSchedulerPeriodicCompleteSplit
+                0x0010a05c                DWHCIFrameSchedulerPeriodicIsOddFrame
+                0x0010a068                DWHCIFrameSchedulerPeriodicTransactionComplete
+                0x0010a124                DWHCIFrameSchedulerPeriodicWaitForFrame
+                0x0010a190                DWHCIFrameSchedulerPeriodic
+ .text          0x0010a1ec      0x560 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+                0x0010a24c                USBKeyboardDeviceConfigure
+                0x0010a680                USBKeyboardDevice
+                0x0010a6d8                _CUSBKeyboardDevice
+                0x0010a72c                USBKeyboardDeviceRegisterKeyPressedHandler
+                0x0010a734                USBKeyboardDeviceRegisterSelectConsoleHandler
+                0x0010a73c                USBKeyboardDeviceRegisterShutdownHandler
+                0x0010a744                USBKeyboardDeviceRegisterKeyStatusHandlerRaw
+ .text          0x0010a74c      0x1e8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+                0x0010a74c                DWHCIRootPort
+                0x0010a75c                _DWHCIRootPort
+                0x0010a790                DWHCIRootPortInitialize
+ .text          0x0010a934      0x400 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                0x0010a994                USBMouseDeviceConfigure
+                0x0010aca8                USBMouseDevice
+                0x0010ace0                _CUSBMouseDevice
+                0x0010ad2c                USBMouseDeviceRegisterStatusHandler
+ .text          0x0010ad34       0xdc C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+                0x0010ad34                _DWHCIFrameSchedulerNoSplit
+                0x0010ad38                DWHCIFrameSchedulerNoSplitStartSplit
+                0x0010ad3c                DWHCIFrameSchedulerNoSplitCompleteSplit
+                0x0010ad44                DWHCIFrameSchedulerNoSplitTransactionComplete
+                0x0010ad48                DWHCIFrameSchedulerNoSplitIsOddFrame
+                0x0010ad54                DWHCIFrameSchedulerNoSplitWaitForFrame
+                0x0010adb8                DWHCIFrameSchedulerNoSplit
+ .text          0x0010ae10      0xc24 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                0x0010b3bc                USBGamePadDeviceConfigure
+                0x0010b8b8                USBGamePadDevice
+                0x0010b950                _CUSBGamePadDevice
+                0x0010b9d4                USBGamePadDeviceRegisterStatusHandler
+                0x0010b9dc                USBGamePadDeviceGetReport
+ .text          0x0010ba34       0xa0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+                0x0010ba34                uspi_EnterCritical
+                0x0010ba70                uspi_LeaveCritical
+                0x0010baa4                uspi_CleanAndInvalidateDataCacheRange
+ .text          0x0010bad4      0x458 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+                0x0010bad4                USBString
+                0x0010bafc                USBStringCopy
+                0x0010bb64                _USBString
+                0x0010bba8                USBStringGetFromDescriptor
+                0x0010bd78                USBStringGet
+                0x0010bd88                USBStringGetLanguageID
+ .text          0x0010bf2c      0x214 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+                0x0010bf2c                USBConfigurationParser
+                0x0010c058                _USBConfigurationParser
+                0x0010c064                USBConfigurationParserIsValid
+                0x0010c06c                USBConfigurationParserGetDescriptor
+                0x0010c114                USBConfigurationParserError
+ .text          0x0010c140      0x1a8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+                0x0010c140                GetDevice
+                0x0010c288                USBDeviceFactoryGetDevice
+ .text          0x0010c2e8      0xa88 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+                0x0010c2e8                USBStandardHub
+                0x0010c32c                _USBStandardHub
+                0x0010c3bc                USBStandardHubInitialize
+                0x0010c3c8                USBStandardHubGetDeviceNames
+                0x0010c488                USBStandardHubEnumeratePorts
+                0x0010ca74                USBStandardHubConfigure
+ .text          0x0010cd70      0x2c8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+                0x0010cd70                KeyMap
+                0x0010cd9c                _KeyMap
+                0x0010cda0                KeyMapClearTable
+                0x0010cdd4                KeyMapSetEntry
+                0x0010ce20                KeyMapTranslate
+                0x0010cf48                KeyMapGetString
+                0x0010d004                KeyMapGetLEDStatus
+ .text          0x0010d038      0x144 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+                0x0010d038                __gtdf2
+                0x0010d038                __gedf2
+                0x0010d040                __ltdf2
+                0x0010d040                __ledf2
+                0x0010d048                __nedf2
+                0x0010d048                __eqdf2
+                0x0010d048                __cmpdf2
+                0x0010d0d0                __aeabi_cdrcmple
+                0x0010d0ec                __aeabi_cdcmpeq
+                0x0010d0ec                __aeabi_cdcmple
+                0x0010d104                __aeabi_dcmpeq
+                0x0010d11c                __aeabi_dcmplt
+                0x0010d134                __aeabi_dcmple
+                0x0010d14c                __aeabi_dcmpge
+                0x0010d164                __aeabi_dcmpgt
+ .text          0x0010d17c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.selfrel_offset31
+                0x0010d17c       0x18 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.search_EIT_table
+                0x0010d194       0x90 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.__gnu_unwind_get_pr_addr
+                0x0010d224       0x40 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.get_eit_entry
+                0x0010d264      0x124 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.restore_non_core_regs
+                0x0010d388       0x90 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0010d418       0x14 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.__gnu_unwind_24bit.isra.0
+                0x0010d42c        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text._Unwind_DebugHook
+                0x0010d434        0x4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.unwind_phase2
+                0x0010d438       0x68 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.unwind_phase2_forced
+                0x0010d4a0      0x144 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text._Unwind_GetCFA
+                0x0010d5e4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d5e4                _Unwind_GetCFA
+ .text.__gnu_Unwind_RaiseException
+                0x0010d5ec       0xac c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d5ec                __gnu_Unwind_RaiseException
+ .text.__gnu_Unwind_ForcedUnwind
+                0x0010d698       0x24 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d698                __gnu_Unwind_ForcedUnwind
+ .text.__gnu_Unwind_Resume
+                0x0010d6bc       0x78 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d6bc                __gnu_Unwind_Resume
+ .text.__gnu_Unwind_Resume_or_Rethrow
+                0x0010d734       0x1c c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d734                __gnu_Unwind_Resume_or_Rethrow
+ .text._Unwind_Complete
+                0x0010d750        0x4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d750                _Unwind_Complete
+ .text._Unwind_DeleteException
+                0x0010d754       0x18 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d754                _Unwind_DeleteException
+ .text._Unwind_VRS_Get
+                0x0010d76c       0x64 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d76c                _Unwind_VRS_Get
+ .text._Unwind_GetGR
+                0x0010d7d0       0x30 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text._Unwind_VRS_Set
+                0x0010d800       0x64 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d800                _Unwind_VRS_Set
+ .text._Unwind_SetGR
+                0x0010d864       0x34 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.__gnu_Unwind_Backtrace
+                0x0010d898       0xcc c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010d898                __gnu_Unwind_Backtrace
+ .text.__gnu_unwind_pr_common
+                0x0010d964      0x434 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .text.__aeabi_unwind_cpp_pr0
+                0x0010dd98        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010dd98                __aeabi_unwind_cpp_pr0
+ .text.__aeabi_unwind_cpp_pr1
+                0x0010dda0        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010dda0                __aeabi_unwind_cpp_pr1
+ .text.__aeabi_unwind_cpp_pr2
+                0x0010dda8        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010dda8                __aeabi_unwind_cpp_pr2
+ .text._Unwind_VRS_Pop
+                0x0010ddb0      0x3ec c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ddb0                _Unwind_VRS_Pop
+ .text          0x0010e19c      0x1b0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+                0x0010e19c                __restore_core_regs
+                0x0010e19c                restore_core_regs
+                0x0010e1b8                __gnu_Unwind_Restore_VFP
+                0x0010e1c0                __gnu_Unwind_Save_VFP
+                0x0010e1c8                __gnu_Unwind_Restore_VFP_D
+                0x0010e1d0                __gnu_Unwind_Save_VFP_D
+                0x0010e1d8                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x0010e1e0                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x0010e1e8                __gnu_Unwind_Restore_WMMXD
+                0x0010e22c                __gnu_Unwind_Save_WMMXD
+                0x0010e270                __gnu_Unwind_Restore_WMMXC
+                0x0010e284                __gnu_Unwind_Save_WMMXC
+                0x0010e298                ___Unwind_RaiseException
+                0x0010e298                _Unwind_RaiseException
+                0x0010e2bc                _Unwind_Resume
+                0x0010e2bc                ___Unwind_Resume
+                0x0010e2e0                _Unwind_Resume_or_Rethrow
+                0x0010e2e0                ___Unwind_Resume_or_Rethrow
+                0x0010e304                _Unwind_ForcedUnwind
+                0x0010e304                ___Unwind_ForcedUnwind
+                0x0010e328                ___Unwind_Backtrace
+                0x0010e328                _Unwind_Backtrace
+ .text          0x0010e34c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ .text.next_unwind_byte
+                0x0010e34c       0x60 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ .text._Unwind_GetGR.constprop.0
+                0x0010e3ac       0x30 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ .text.unwind_UCB_from_context
+                0x0010e3dc        0x4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ .text.__gnu_unwind_execute
+                0x0010e3e0      0x3d4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e3e0                __gnu_unwind_execute
+ .text.__gnu_unwind_frame
+                0x0010e7b4       0x48 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e7b4                __gnu_unwind_frame
+ .text._Unwind_GetRegionStart
+                0x0010e7fc       0x14 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e7fc                _Unwind_GetRegionStart
+ .text._Unwind_GetLanguageSpecificData
+                0x0010e810       0x20 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e810                _Unwind_GetLanguageSpecificData
+ .text.unlikely._Unwind_GetDataRelBase
+                0x0010e830        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e830                _Unwind_GetDataRelBase
+ .text.unlikely._Unwind_GetTextRelBase
+                0x0010e838        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010e838                _Unwind_GetTextRelBase
+                0x0010e840                _etext = .
+
+.glue_7         0x0010e840        0x0
+ .glue_7        0x0010e840        0x0 linker stubs
+
+.glue_7t        0x0010e840        0x0
+ .glue_7t       0x0010e840        0x0 linker stubs
+
+.vfp11_veneer   0x0010e840        0x0
+ .vfp11_veneer  0x0010e840        0x0 linker stubs
+
+.v4_bx          0x0010e840        0x0
+ .v4_bx         0x0010e840        0x0 linker stubs
+
+.iplt           0x0010e840        0x0
+ .iplt          0x0010e840        0x0 ./src/main.o
+
+.rodata         0x0010e840     0x11da
+ *(.rodata*)
+ .rodata.str1.4
+                0x0010e840       0x3b ./src/main.o
+ *fill*         0x0010e87b        0x1 
+ .rodata        0x0010e87c       0x41 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .rodata.str1.4
+                0x0010e8bd       0x3b C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+                                  0x1 (size before relaxing)
+ *fill*         0x0010e8bd        0x3 
+ .rodata        0x0010e8c0       0x18 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .rodata.str1.4
+                0x0010e8d8       0x97 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ *fill*         0x0010e96f        0x1 
+ .rodata        0x0010e970      0x524 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .rodata.str1.4
+                0x0010ee94       0x1a C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ *fill*         0x0010eeae        0x2 
+ .rodata.str1.4
+                0x0010eeb0       0x46 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ *fill*         0x0010eef6        0x2 
+ .rodata        0x0010eef8        0x5 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ *fill*         0x0010eefd        0x3 
+ .rodata.str1.4
+                0x0010ef00       0x57 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ *fill*         0x0010ef57        0x1 
+ .rodata        0x0010ef58        0x6 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ *fill*         0x0010ef5e        0x2 
+ .rodata.str1.4
+                0x0010ef60       0xcc C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .rodata        0x0010f02c        0x7 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ *fill*         0x0010f033        0x1 
+ .rodata.str1.4
+                0x0010f034      0x150 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .rodata.str1.4
+                0x0010f184       0x1e C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ *fill*         0x0010f1a2        0x2 
+ .rodata        0x0010f1a4        0x9 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ *fill*         0x0010f1ad        0x3 
+ .rodata.str1.4
+                0x0010f1b0       0x7e C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ *fill*         0x0010f22e        0x2 
+ .rodata        0x0010f230        0x5 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ *fill*         0x0010f235        0x3 
+ .rodata.str1.4
+                0x0010f238      0x1c4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+                                0x1e8 (size before relaxing)
+ .rodata.str1.4
+                0x0010f3fc       0x1c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .rodata.str1.4
+                0x0010f418       0x1c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .rodata        0x0010f418        0x7 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ *fill*         0x0010f41f        0x1 
+ .rodata.str1.4
+                0x0010f420       0x3b C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+                                 0x57 (size before relaxing)
+ *fill*         0x0010f45b        0x1 
+ .rodata        0x0010f45c        0x7 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ *fill*         0x0010f463        0x1 
+ .rodata.str1.4
+                0x0010f464       0x63 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ *fill*         0x0010f4c7        0x1 
+ .rodata        0x0010f4c8        0x7 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ *fill*         0x0010f4cf        0x1 
+ .rodata.str1.4
+                0x0010f4d0        0x9 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                                 0x59 (size before relaxing)
+ *fill*         0x0010f4d9        0x3 
+ .rodata        0x0010f4dc        0xd C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ *fill*         0x0010f4e9        0x3 
+ .rodata.str1.4
+                0x0010f4ec       0x21 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                                 0x5f (size before relaxing)
+ *fill*         0x0010f50d        0x3 
+ .rodata.str1.4
+                0x0010f510       0x2f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ *fill*         0x0010f53f        0x1 
+ .rodata.str1.4
+                0x0010f540       0x45 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ *fill*         0x0010f585        0x3 
+ .rodata        0x0010f588        0x7 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ *fill*         0x0010f58f        0x1 
+ .rodata.str1.4
+                0x0010f590      0x170 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+                                0x1ac (size before relaxing)
+ .rodata        0x0010f700      0x24c C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .rodata.str1.4
+                0x0010f94c       0xce C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+                                 0xde (size before relaxing)
+
+.ARM.extab      0x0010fa1a        0x0
+ .ARM.extab     0x0010fa1a        0x0 ./src/main.o
+ .ARM.extab     0x0010fa1a        0x0 ./src/peripherals.o
+ .ARM.extab     0x0010fa1a        0x0 ./src/utilities.o
+
+.ARM.exidx      0x0010fa1c       0x38
+ .ARM.exidx     0x0010fa1c       0x30 ./src/main.o
+                                 0x48 (size before relaxing)
+ .ARM.exidx     0x0010fa4c        0x8 ./src/peripherals.o
+                                 0x30 (size before relaxing)
+ .ARM.exidx     0x0010fa54        0x0 ./src/utilities.o
+                                 0x18 (size before relaxing)
+
+.ARM.extab.text.startup
+                0x0010fa54        0x0
+ .ARM.extab.text.startup
+                0x0010fa54        0x0 ./src/main.o
+
+.ARM.exidx.text.startup
+                0x0010fa54        0x8
+ .ARM.exidx.text.startup
+                0x0010fa54        0x8 ./src/main.o
+
+.ARM.extab.begin
+                0x0010fa5c        0x0
+ .ARM.extab.begin
+                0x0010fa5c        0x0 ./src/utilities.o
+
+.ARM.exidx.begin
+                0x0010fa5c        0x8
+ .ARM.exidx.begin
+                0x0010fa5c        0x8 ./src/utilities.o
+
+.ARM.extab.text.unlikely
+                0x0010fa64        0x0
+ .ARM.extab.text.unlikely
+                0x0010fa64        0x0 ./src/utilities.o
+
+.ARM.exidx.text.unlikely
+                0x0010fa64        0x0
+ .ARM.exidx.text.unlikely
+                0x0010fa64        0x0 ./src/utilities.o
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.selfrel_offset31
+                0x0010fa64        0x0
+ .ARM.extab.text.selfrel_offset31
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.selfrel_offset31
+                0x0010fa64        0x0
+ .ARM.exidx.text.selfrel_offset31
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.search_EIT_table
+                0x0010fa64        0x0
+ .ARM.extab.text.search_EIT_table
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.search_EIT_table
+                0x0010fa64        0x0
+ .ARM.exidx.text.search_EIT_table
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.__gnu_unwind_get_pr_addr
+                0x0010fa64        0x0
+ .ARM.extab.text.__gnu_unwind_get_pr_addr
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_unwind_get_pr_addr
+                0x0010fa64        0x0
+ .ARM.exidx.text.__gnu_unwind_get_pr_addr
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.get_eit_entry
+                0x0010fa64        0x0
+ .ARM.extab.text.get_eit_entry
+                0x0010fa64        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.get_eit_entry
+                0x0010fa64        0x8
+ .ARM.exidx.text.get_eit_entry
+                0x0010fa64        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.restore_non_core_regs
+                0x0010fa6c        0x0
+ .ARM.extab.text.restore_non_core_regs
+                0x0010fa6c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.restore_non_core_regs
+                0x0010fa6c        0x8
+ .ARM.exidx.text.restore_non_core_regs
+                0x0010fa6c        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0010fa74        0x0
+ .ARM.extab.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0010fa74        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0010fa74        0x8
+ .ARM.exidx.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0010fa74        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_unwind_24bit.isra.0
+                0x0010fa7c        0x0
+ .ARM.extab.text.__gnu_unwind_24bit.isra.0
+                0x0010fa7c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_unwind_24bit.isra.0
+                0x0010fa7c        0x0
+ .ARM.exidx.text.__gnu_unwind_24bit.isra.0
+                0x0010fa7c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_DebugHook
+                0x0010fa7c        0x0
+ .ARM.extab.text._Unwind_DebugHook
+                0x0010fa7c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_DebugHook
+                0x0010fa7c        0x0
+ .ARM.exidx.text._Unwind_DebugHook
+                0x0010fa7c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.unwind_phase2
+                0x0010fa7c        0x0
+ .ARM.extab.text.unwind_phase2
+                0x0010fa7c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.unwind_phase2
+                0x0010fa7c        0x8
+ .ARM.exidx.text.unwind_phase2
+                0x0010fa7c        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.unwind_phase2_forced
+                0x0010fa84        0x0
+ .ARM.extab.text.unwind_phase2_forced
+                0x0010fa84        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.unwind_phase2_forced
+                0x0010fa84        0x8
+ .ARM.exidx.text.unwind_phase2_forced
+                0x0010fa84        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text._Unwind_GetCFA
+                0x0010fa8c        0x0
+ .ARM.extab.text._Unwind_GetCFA
+                0x0010fa8c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_GetCFA
+                0x0010fa8c        0x8
+ .ARM.exidx.text._Unwind_GetCFA
+                0x0010fa8c        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_Unwind_RaiseException
+                0x0010fa94        0x0
+ .ARM.extab.text.__gnu_Unwind_RaiseException
+                0x0010fa94        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_Unwind_RaiseException
+                0x0010fa94        0x8
+ .ARM.exidx.text.__gnu_Unwind_RaiseException
+                0x0010fa94        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_Unwind_ForcedUnwind
+                0x0010fa9c        0x0
+ .ARM.extab.text.__gnu_Unwind_ForcedUnwind
+                0x0010fa9c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_Unwind_ForcedUnwind
+                0x0010fa9c        0x8
+ .ARM.exidx.text.__gnu_Unwind_ForcedUnwind
+                0x0010fa9c        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_Unwind_Resume
+                0x0010faa4        0x0
+ .ARM.extab.text.__gnu_Unwind_Resume
+                0x0010faa4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_Unwind_Resume
+                0x0010faa4        0x8
+ .ARM.exidx.text.__gnu_Unwind_Resume
+                0x0010faa4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0010faac        0x0
+ .ARM.extab.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0010faac        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0010faac        0x8
+ .ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0010faac        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text._Unwind_Complete
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_Complete
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_Complete
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_Complete
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_DeleteException
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_DeleteException
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_DeleteException
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_DeleteException
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_VRS_Get
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_VRS_Get
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_VRS_Get
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_VRS_Get
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_GetGR
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_GetGR
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_GetGR
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_GetGR
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_VRS_Set
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_VRS_Set
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_VRS_Set
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_VRS_Set
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_SetGR
+                0x0010fab4        0x0
+ .ARM.extab.text._Unwind_SetGR
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_SetGR
+                0x0010fab4        0x0
+ .ARM.exidx.text._Unwind_SetGR
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.__gnu_Unwind_Backtrace
+                0x0010fab4        0x0
+ .ARM.extab.text.__gnu_Unwind_Backtrace
+                0x0010fab4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_Unwind_Backtrace
+                0x0010fab4        0x8
+ .ARM.exidx.text.__gnu_Unwind_Backtrace
+                0x0010fab4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__gnu_unwind_pr_common
+                0x0010fabc        0x0
+ .ARM.extab.text.__gnu_unwind_pr_common
+                0x0010fabc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__gnu_unwind_pr_common
+                0x0010fabc        0x8
+ .ARM.exidx.text.__gnu_unwind_pr_common
+                0x0010fabc        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__aeabi_unwind_cpp_pr0
+                0x0010fac4        0x0
+ .ARM.extab.text.__aeabi_unwind_cpp_pr0
+                0x0010fac4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__aeabi_unwind_cpp_pr0
+                0x0010fac4        0x8
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr0
+                0x0010fac4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.extab.text.__aeabi_unwind_cpp_pr1
+                0x0010facc        0x0
+ .ARM.extab.text.__aeabi_unwind_cpp_pr1
+                0x0010facc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__aeabi_unwind_cpp_pr1
+                0x0010facc        0x0
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr1
+                0x0010facc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.__aeabi_unwind_cpp_pr2
+                0x0010facc        0x0
+ .ARM.extab.text.__aeabi_unwind_cpp_pr2
+                0x0010facc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text.__aeabi_unwind_cpp_pr2
+                0x0010facc        0x0
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr2
+                0x0010facc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_VRS_Pop
+                0x0010facc        0x0
+ .ARM.extab.text._Unwind_VRS_Pop
+                0x0010facc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+
+.ARM.exidx.text._Unwind_VRS_Pop
+                0x0010facc       0x10
+ .ARM.exidx.text._Unwind_VRS_Pop
+                0x0010facc       0x10 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.next_unwind_byte
+                0x0010fadc        0x0
+ .ARM.extab.text.next_unwind_byte
+                0x0010fadc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.next_unwind_byte
+                0x0010fadc        0x0
+ .ARM.exidx.text.next_unwind_byte
+                0x0010fadc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text._Unwind_GetGR.constprop.0
+                0x0010fadc        0x0
+ .ARM.extab.text._Unwind_GetGR.constprop.0
+                0x0010fadc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text._Unwind_GetGR.constprop.0
+                0x0010fadc        0x8
+ .ARM.exidx.text._Unwind_GetGR.constprop.0
+                0x0010fadc        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text.unwind_UCB_from_context
+                0x0010fae4        0x0
+ .ARM.extab.text.unwind_UCB_from_context
+                0x0010fae4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.unwind_UCB_from_context
+                0x0010fae4        0x8
+ .ARM.exidx.text.unwind_UCB_from_context
+                0x0010fae4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text.__gnu_unwind_execute
+                0x0010faec        0x0
+ .ARM.extab.text.__gnu_unwind_execute
+                0x0010faec        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.__gnu_unwind_execute
+                0x0010faec        0x8
+ .ARM.exidx.text.__gnu_unwind_execute
+                0x0010faec        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text.__gnu_unwind_frame
+                0x0010faf4        0x0
+ .ARM.extab.text.__gnu_unwind_frame
+                0x0010faf4        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.__gnu_unwind_frame
+                0x0010faf4        0x8
+ .ARM.exidx.text.__gnu_unwind_frame
+                0x0010faf4        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text._Unwind_GetRegionStart
+                0x0010fafc        0x0
+ .ARM.extab.text._Unwind_GetRegionStart
+                0x0010fafc        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text._Unwind_GetRegionStart
+                0x0010fafc        0x8
+ .ARM.exidx.text._Unwind_GetRegionStart
+                0x0010fafc        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text._Unwind_GetLanguageSpecificData
+                0x0010fb04        0x0
+ .ARM.extab.text._Unwind_GetLanguageSpecificData
+                0x0010fb04        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text._Unwind_GetLanguageSpecificData
+                0x0010fb04        0x0
+ .ARM.exidx.text._Unwind_GetLanguageSpecificData
+                0x0010fb04        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                                  0x8 (size before relaxing)
+
+.ARM.extab.text.unlikely._Unwind_GetDataRelBase
+                0x0010fb04        0x0
+ .ARM.extab.text.unlikely._Unwind_GetDataRelBase
+                0x0010fb04        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.unlikely._Unwind_GetDataRelBase
+                0x0010fb04        0x8
+ .ARM.exidx.text.unlikely._Unwind_GetDataRelBase
+                0x0010fb04        0x8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.extab.text.unlikely._Unwind_GetTextRelBase
+                0x0010fb0c        0x0
+ .ARM.extab.text.unlikely._Unwind_GetTextRelBase
+                0x0010fb0c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.exidx.text.unlikely._Unwind_GetTextRelBase
+                0x0010fb0c        0x0
+ .ARM.exidx.text.unlikely._Unwind_GetTextRelBase
+                0x0010fb0c        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                                  0x8 (size before relaxing)
+
+.rel.dyn        0x0010fb0c        0x0
+ .rel.iplt      0x0010fb0c        0x0 ./src/main.o
+
+.data           0x0010fb0c       0x88
+ *(.data*)
+ .data          0x0010fb0c        0x8 ./src/main.o
+                0x0010fb0c                TimerIsrPeriod
+                0x0010fb10                SCREENBUF
+ .data          0x0010fb14        0x0 ./src/peripherals.o
+ .data          0x0010fb14        0x4 ./src/utilities.o
+                0x0010fb14                randi
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .data          0x0010fb18        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+ .data          0x0010fb18       0x38 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .data          0x0010fb50        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .data          0x0010fb50        0x1 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .data          0x0010fb51        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+ *fill*         0x0010fb51        0x3 
+ .data          0x0010fb54        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .data          0x0010fb58        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .data          0x0010fb58        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .data          0x0010fb58        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .data          0x0010fb5c        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .data          0x0010fb5c        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .data          0x0010fb60        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .data          0x0010fb60       0x34 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .data          0x0010fb94        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .data          0x0010fb94        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .data          0x0010fb94        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .data          0x0010fb94        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .data          0x0010fb94        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fb94                __bss_start = .
+
+.igot.plt       0x0010fb94        0x0
+ .igot.plt      0x0010fb94        0x0 ./src/main.o
+
+.bss            0x0010fb94    0x66d38
+ *(.bss*)
+ .bss           0x0010fb94    0x668d0 ./src/main.o
+                0x0010fb94                presc
+                0x0010fb98                Jx
+                0x0010fb9c                Jy
+                0x0010fba0                Jz
+                0x0010fba4                JRz
+                0x0010fba8                Jyt
+                0x0010fbac                Jxt
+                0x0010fbb0                stage
+                0x0010fbb4                SCREEN
+                0x0010fbb8                frame_count
+                0x0010fbbc                timeElapse
+                0x0010fbc0                mode
+                0x0010fbc4                yt
+                0x0011e624                xt
+                0x0012d084                y
+                0x0013bae4                x
+                0x0014a544                s
+                0x00158fa4                dy
+                0x00167a04                dx
+ .bss           0x00176464       0x28 ./src/peripherals.o
+                0x00176464                gRawKeys
+                0x0017646c                ra
+                0x00176470                gucModifiers
+                0x00176474                JoYAct
+ .bss           0x0017648c        0x0 ./src/utilities.o
+ .bss           0x0017648c        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .bss           0x0017648c        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .bss           0x0017648c        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .bss           0x0017648c      0x3f4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .bss           0x00176880        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .bss           0x00176880        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+ .bss           0x00176880        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .bss           0x00176880        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .bss           0x00176880        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .bss           0x00176884        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+ .bss           0x00176884       0x14 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .bss           0x00176898        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .bss           0x00176898        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .bss           0x00176898        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .bss           0x00176898        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+ .bss           0x00176898        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .bss           0x0017689c        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+ .bss           0x0017689c        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .bss           0x001768a0        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .bss           0x001768a0        0x8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .bss           0x001768a8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .bss           0x001768a8        0x8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x001768ac                counter
+ .bss           0x001768b0        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .bss           0x001768b0        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+ .bss           0x001768b0        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .bss           0x001768b0        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .bss           0x001768b4        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .bss           0x001768b4        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .bss           0x001768b8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .bss           0x001768b8        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .bss           0x001768bc        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .bss           0x001768bc        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                0x001768bc                padDevBusy
+ .bss           0x001768c0        0x8 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .bss           0x001768c8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .bss           0x001768c8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .bss           0x001768c8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .bss           0x001768c8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .bss           0x001768c8        0x0 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .bss           0x001768c8        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x001768c8        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .bss           0x001768c8        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .bss           0x001768c8        0x0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ COMMON         0x001768c8        0x4 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x001768c8                gpio
+                0x001768cc                __exidx_start = .
+
+.exidx
+ *(.exidx*)
+                0x001768cc                __exidx_end = .
+                0x001768cc                _end = .
+                0x001768cc                end = .
+OUTPUT(RPiLAB_BASE.elf elf32-littlearm)
+
+.comment        0x00000000       0xc8
+ .comment       0x00000000       0x5a ./src/main.o
+                                 0x5b (size before relaxing)
+ .comment       0x0000005a       0x5b ./src/peripherals.o
+ .comment       0x0000005a       0x5b ./src/utilities.o
+ .comment       0x0000005a       0x6e C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+                                 0x6f (size before relaxing)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .comment       0x000000c8       0x6f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .comment       0x000000c8       0x5b c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .comment       0x000000c8       0x5b c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x35 ./src/main.o
+ .ARM.attributes
+                0x00000035       0x35 ./src/peripherals.o
+ .ARM.attributes
+                0x0000006a       0x35 ./src/utilities.o
+ .ARM.attributes
+                0x0000009f       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .ARM.attributes
+                0x000000d0       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .ARM.attributes
+                0x00000101       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .ARM.attributes
+                0x00000132       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .ARM.attributes
+                0x00000163       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .ARM.attributes
+                0x00000194       0x1f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+ .ARM.attributes
+                0x000001b3       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .ARM.attributes
+                0x000001e4       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .ARM.attributes
+                0x00000215       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .ARM.attributes
+                0x00000246       0x1f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+ .ARM.attributes
+                0x00000265       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .ARM.attributes
+                0x00000296       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .ARM.attributes
+                0x000002c7       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .ARM.attributes
+                0x000002f8       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .ARM.attributes
+                0x00000329       0x1f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+ .ARM.attributes
+                0x00000348       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .ARM.attributes
+                0x00000379       0x1f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+ .ARM.attributes
+                0x00000398       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .ARM.attributes
+                0x000003c9       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .ARM.attributes
+                0x000003fa       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .ARM.attributes
+                0x0000042b       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .ARM.attributes
+                0x0000045c       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ .ARM.attributes
+                0x0000048d       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .ARM.attributes
+                0x000004be       0x1f C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+ .ARM.attributes
+                0x000004dd       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .ARM.attributes
+                0x0000050e       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .ARM.attributes
+                0x0000053f       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .ARM.attributes
+                0x00000570       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .ARM.attributes
+                0x000005a1       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .ARM.attributes
+                0x000005d2       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .ARM.attributes
+                0x00000603       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .ARM.attributes
+                0x00000634       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .ARM.attributes
+                0x00000665       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .ARM.attributes
+                0x00000696       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .ARM.attributes
+                0x000006c7       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .ARM.attributes
+                0x000006f8       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(util.o)
+ .ARM.attributes
+                0x00000729       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .ARM.attributes
+                0x0000075a       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .ARM.attributes
+                0x0000078b       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .ARM.attributes
+                0x000007bc       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .ARM.attributes
+                0x000007ed       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .ARM.attributes
+                0x0000081e       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .ARM.attributes
+                0x0000084f       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .ARM.attributes
+                0x00000880       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ .ARM.attributes
+                0x000008b1       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .ARM.attributes
+                0x000008e2       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .ARM.attributes
+                0x00000913       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .ARM.attributes
+                0x00000944       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .ARM.attributes
+                0x00000975       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .ARM.attributes
+                0x000009a6       0x31 C:\Users\Bartosz\Desktop\Studia\OSM-laby\cw2\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .ARM.attributes
+                0x000009d7       0x1c c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000009f3       0x2a c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x00000a1d       0x1c c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x00000a39       0x2a c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_line     0x00000000     0x1872
+ .debug_line    0x00000000       0xb6 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x000000b6     0x11a3 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_line    0x00001259       0xb2 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .debug_line    0x0000130b      0x567 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_info     0x00000000     0x2899
+ .debug_info    0x00000000       0x26 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_info    0x00000026     0x1ec3 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_info    0x00001ee9       0x26 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .debug_info    0x00001f0f      0x98a c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_abbrev   0x00000000      0x766
+ .debug_abbrev  0x00000000       0x14 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_abbrev  0x00000014      0x477 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_abbrev  0x0000048b       0x14 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .debug_abbrev  0x0000049f      0x2c7 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_aranges  0x00000000      0x188
+ .debug_aranges
+                0x00000000       0x20 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_aranges
+                0x00000020       0xf0 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_aranges
+                0x00000110       0x20 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .debug_aranges
+                0x00000130       0x58 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_str      0x00000000      0xd54
+ .debug_str     0x00000000       0x8c c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_str     0x0000008c      0xbaf c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                                0xc8b (size before relaxing)
+ .debug_str     0x00000c3b       0x35 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+                                 0x8b (size before relaxing)
+ .debug_str     0x00000c70       0xe4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                                0x555 (size before relaxing)
+
+.debug_frame    0x00000000      0x538
+ .debug_frame   0x00000000       0xc4 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000000c4      0x364 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00000428      0x110 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_loc      0x00000000     0x25fc
+ .debug_loc     0x00000000     0x206a c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_loc     0x0000206a      0x592 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+
+.debug_ranges   0x00000000      0x220
+ .debug_ranges  0x00000000      0x1d8 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .debug_ranges  0x000001d8       0x48 c:/users/bartosz/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
