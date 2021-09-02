@@ -2992,3 +2992,243 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2021-09-02 19:58:41.428 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.mylyn.wikitext.context.ui 4 0 2021-09-02 19:58:42.010
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.wikitext.context.ui [383]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.ui [398]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+              org.eclipse.mylyn.wikitext [377]
+                Unresolved requirement: Import-Package: org.jsoup; version="[1.8.0,2.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.osgi; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.osgi; bundle-version="3.0.38.202008172112"
+       org.eclipse.mylyn.wikitext.osgi [390]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1779)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.wikitext.osgi 4 0 2021-09-02 19:58:42.010
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.wikitext.osgi [390]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext [377]
+         Unresolved requirement: Import-Package: org.jsoup; version="[1.8.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1779)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.wikitext.tasks.ui 4 0 2021-09-02 19:58:42.014
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.wikitext.tasks.ui [391]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.ui [398]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+              org.eclipse.mylyn.wikitext [377]
+                Unresolved requirement: Import-Package: org.jsoup; version="[1.8.0,2.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.tracwiki.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.tracwiki.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.tracwiki.ui [395]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.confluence.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.confluence.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.confluence.ui [382]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.twiki; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.twiki; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.twiki [396]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.markdown.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.markdown.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.markdown.ui [387]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.tracwiki; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.tracwiki; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.tracwiki [394]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.confluence; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.confluence; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.confluence [381]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.textile; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.textile; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.textile [392]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.markdown; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.markdown; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.markdown [386]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.mediawiki.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.mediawiki.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.mediawiki.ui [389]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.twiki.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.twiki.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.twiki.ui [397]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.mediawiki; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.mediawiki; bundle-version="3.0.38.20200817211131"
+       org.eclipse.mylyn.wikitext.mediawiki [388]
+         Unresolved requirement: Import-Package: org.eclipse.mylyn.wikitext.parser; version="[3.0.0,4.0.0)"
+           -> Export-Package: org.eclipse.mylyn.wikitext.parser; bundle-symbolic-name="org.eclipse.mylyn.wikitext"; bundle-version="3.0.38.20200817211131"; version="3.0.38"; uses:="org.eclipse.mylyn.wikitext.parser.markup,org.xml.sax"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.textile.ui; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.textile.ui; bundle-version="3.0.38.202008172112"; singleton:="true"
+       org.eclipse.mylyn.wikitext.textile.ui [393]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1779)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.wikitext.ui 4 0 2021-09-02 19:58:42.018
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.wikitext.ui [398]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.osgi; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.osgi; bundle-version="3.0.38.202008172112"
+       org.eclipse.mylyn.wikitext.osgi [390]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+              org.eclipse.mylyn.wikitext [377]
+                Unresolved requirement: Import-Package: org.jsoup; version="[1.8.0,2.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext; bundle-version="3.0.38"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext; bundle-version="3.0.38.20200817211131"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1779)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-02 19:58:58.111
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'

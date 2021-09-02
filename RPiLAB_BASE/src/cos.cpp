@@ -1,14 +1,16 @@
 #include "main.h"
 #include "moje_klasy.h"
 #include "stdint.h"
-#include "bitmapaZad0.h"
-#include "bitmapaZad30.h"
-#include "bitmapaZad60.h"
+
+
 
 #define WIN_PLOT
 #define NazwaPlikuDanych "Data/RPiLABoutputData.csv"
 #define CSV_NAGLOWEK "Wsp. x,Wsp. y1,Wsp. y2\n"
 #define CSV_DANE "%li,%i,%i\n",presc, y[0], y[1]
+
+
+
 
 
 #ifdef RPiLAB_WIN
@@ -41,20 +43,62 @@ int stage = 0;
 int frame_count = 0;
 int Jxt = 0, Jyt = 0, Jx = 0, Jy = 0, Jz = 0, JRz = 0;
 
+////////// bitmapy START //////////
+#include "bitmapaZad0.h"
+#include "bitmapaZad30.h"
+#include "bitmapaZad60.h"
+////////// bitmapy END //////////
+
+////////// inicjalizacja zmiennych START //////////
+int Tim = 0;                // Licznik uzytkownika
+unsigned int Tim1 = 0;
+unsigned int Tim2 = 0;
+unsigned int Tim3 = 0;
+unsigned int predkosc = 0;
+unsigned int preScale = 0;  // Preskaler licznika uzytkownika
+unsigned int Skaler = 0;	// Skaler potrzebny do przeliczania konkretnych Timow
+bool st_zaklo = false;	// zmienna start/stop zaklocenia
+volatile char EnableRefresh = 0;    //Zezwolenie na odswiezenie zawartosci pamieci graficznej
+
+float wart_zad = 30;
+float wyj_ukl = 50;
+float uchyb = 0;
+float syg_ster = 0;
+float zaklo = 10;
+unsigned char Key = 0;
+
+unsigned char Bufor1[] = "Temperatura";
+unsigned char Bufor2[] = "-----------";
+char Bufor3[5] ;
+unsigned char Bufor4[] = "Wartosc zadana:";
+unsigned char Bufor5[] = "--------------";
+char Bufor6[5];
+////////// inicjalizacjz zmiennych END //////////
+
+////////// inicjalizacja obiektow START //////////
+PID Regul(0.8, 0.5, 1, -50, 50);
+CalkModel Model(wyj_ukl);
+////////// inicjalizacja obiektow END //////////
+
 
 int main(void) {
 
 	if (SystemInit())		return EXIT_HALT;
-	DataPrepare(); //chyba tworzy kwadraty?
+	//DataPrepare();
 
 
 	while (1) {
-		if (UpdateIO())	return 0; //nie wiem, co tu sie dzieje, ale jak zakomentowalem to byl czarny ekran
-		PrintDiagnosticInfo(); //jakies sprinty cos tutaj do wyswietlania? chyba konsola
-		Synchronize(); //cos z czasem, jak zakomentowalem to szybciej lata
-		ClearScreen(); //no clear screen to wiadomo co robi xd
-		if (JoYAct.ButtonStates & BUTTON_SELECT) continue; //wciskanie przyciskow chyba, w sumie zakomentowalem a dziala normalnie xd
+		if (UpdateIO())	return 0;
+		PrintDiagnosticInfo();
+		Synchronize();
+		ClearScreen();
+		if (JoYAct.ButtonStates & BUTTON_SELECT) continue;
 		//DrawObjects(); //rysowanie kwadratow mysle
+
+		Key = getKey();
+
+		//WYWOLANIE FUNKCJI WYSWIETLAJACYCH BITMAPY
+		//Tylko Patryk musi zrobic bitmapy
 
 	}
 }
@@ -71,6 +115,36 @@ void TimerIsr() {
 		RegisterSet(GPSET1, 1 << (47 - 32));
 	else
 		RegisterSet(GPCLR1, 1 << (47 - 32));
+
+	if(++preScale==500)
+	        {
+	        	preScale=0;Tim++;
+	//mamy st_zaklo i Skaler
+	        	if (Key == 1) zaklo++;
+	        	else if (Key == 2) zaklo--;
+	        	else if (Key == 4) zaklo=zaklo+3;
+	        	else if (Key == 5) zaklo=zaklo-3;
+	        	else if (Key == 7) zaklo=zaklo+6;
+	        	else if (Key == 8) zaklo=zaklo-6;
+
+	        	if (Key == 12) wart_zad++;
+	        	else if (Key == 13) wart_zad--;
+
+	        	uchyb = wart_zad - wyj_ukl;
+	        	uchyb = -uchyb;
+	        	Regul.setInput(uchyb);
+	        	Regul.Calculate();
+	        	syg_ster = Regul.getOutput();
+	        	Model.setInput(syg_ster, zaklo);
+	        	Model.Calculate();
+	        	wyj_ukl = Model.getOutput();
+	        }
+	        if (preScale % 80 == 0)
+	        {
+	        	Tim1++;
+	        	if (Tim1 % 2 == 0) Tim2++;
+	        	else if (Tim2 % 2 == 0) Tim3++;
+	        }
 }
 
 //Odpowiada za rysowanie kwadratow
