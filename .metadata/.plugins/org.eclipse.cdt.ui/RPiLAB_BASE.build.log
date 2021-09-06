@@ -1,24 +1,20 @@
-21:39:59 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
+23:02:17 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
 make all 
 Building file: ../src/cos.cpp
 Invoking: Cross ARM C++ Compiler
 arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/cos.d" -MT"src/cos.o" -c -o "src/cos.o" "../src/cos.cpp"
-Finished building: ../src/cos.cpp
- 
-Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -std=gnu99 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -c -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
-Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
- 
-Building target: RPiLAB_BASE.elf
-Invoking: Cross ARM C++ Linker
-arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -T "C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\RPiLAB_BASE.ld" -nostartfiles -L"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library" -Wl,-Map,"RPiLAB_BASE.map" --specs=rdimon.specs -Wl,--start-group -lgcc -lc -lc -lm -lrdimon -Wl,--end-group -o "RPiLAB_BASE.elf"  ./src/cos.o ./src/main.o ./src/peripherals.o ./src/utilities.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -luspienv -luspi -lgcc
-Finished building target: RPiLAB_BASE.elf
- 
-Invoking: Cross ARM GNU Create Flash Image
-arm-none-eabi-objcopy -O binary "RPiLAB_BASE.elf"  "RPiLAB_BASE.bin"
-Finished building: RPiLAB_BASE.bin
- 
+../src/cos.cpp: In function 'int main()':
+../src/cos.cpp:107:29: error: invalid conversion from 'const long unsigned int*' to 'long unsigned int*' [-fpermissive]
+  107 |   rysowanie_ekran(SCREENBUF,grzejnik_old_color,WIDTH_grzejnik_old_color,HEIGHT_grzejnik_old_color,80,160);
+      |                             ^~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             const long unsigned int*
+In file included from ../src/cos.cpp:1:
+../src/main.h:26:58: note:   initializing argument 2 of 'void rysowanie_ekran(long unsigned int*, long unsigned int*, int, int, int, int)'
+   26 | void rysowanie_ekran(unsigned long* ekran, unsigned long tab[], int width, int height, int x, int y);
+      |                                            ~~~~~~~~~~~~~~^~~~~
+make: *** [src/cos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
 
-21:40:00 Build Finished. 0 errors, 0 warnings. (took 1s.19ms)
+23:02:18 Build Failed. 2 errors, 0 warnings. (took 1s.292ms)
 
