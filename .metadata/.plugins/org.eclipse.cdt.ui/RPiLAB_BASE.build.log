@@ -1,20 +1,7 @@
-23:02:17 **** Incremental Build of configuration RPiLAB for project RPiLAB_BASE ****
-make all 
-Building file: ../src/cos.cpp
-Invoking: Cross ARM C++ Compiler
-arm-none-eabi-g++ -mcpu=cortex-a7 -marm -O3 -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\src" -I"C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include" -std=gnu++11 -fabi-version=0 -MMD -MP -MF"src/cos.d" -MT"src/cos.o" -c -o "src/cos.o" "../src/cos.cpp"
-../src/cos.cpp: In function 'int main()':
-../src/cos.cpp:107:29: error: invalid conversion from 'const long unsigned int*' to 'long unsigned int*' [-fpermissive]
-  107 |   rysowanie_ekran(SCREENBUF,grzejnik_old_color,WIDTH_grzejnik_old_color,HEIGHT_grzejnik_old_color,80,160);
-      |                             ^~~~~~~~~~~~~~~~~~
-      |                             |
-      |                             const long unsigned int*
-In file included from ../src/cos.cpp:1:
-../src/main.h:26:58: note:   initializing argument 2 of 'void rysowanie_ekran(long unsigned int*, long unsigned int*, int, int, int, int)'
-   26 | void rysowanie_ekran(unsigned long* ekran, unsigned long tab[], int width, int height, int x, int y);
-      |                                            ~~~~~~~~~~~~~~^~~~~
-make: *** [src/cos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
+22:13:44 **** Incremental Build of configuration RPiSIM for project RPiLAB_BASE ****
+Info: Internal Builder is used for build
+g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ "-LC:\\Users\\wegne\\Desktop\\Studia\\OSM-laby\\gierka\\RPiLAB_BASE\\Library" -static -static-libgcc -static-libstdc++ -shared -o RPiLAB_BASE.disc ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "src\\cos.o" "src\\main.o" "src\\peripherals.o" "src\\utilities.o" -lRPiLAB_DISC_LIB 
 
-23:02:18 Build Failed. 2 errors, 0 warnings. (took 1s.292ms)
+22:13:45 Build Finished. 0 errors, 0 warnings. (took 1s.843ms)
 

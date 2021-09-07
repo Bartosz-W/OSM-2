@@ -26,7 +26,10 @@ src/main.o: ../src/main.cpp ../src/main.h ../src/settings.h \
  C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include/uspienv/synchronize.h \
  C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include/uspienv/memio.h \
  ../src/utilities.h ../src/peripherals.h ../src/moje_klasy.h \
- ../src/bitmapaZad0.h ../src/bitmapaZad30.h ../src/bitmapaZad60.h
+ ../src/bitmapaZad0.h ../src/bitmapaZad30.h ../src/bitmapaZad60.h \
+ ../src/grzejnik_old_color.h ../src/grzejnik_color.h \
+ ../src/termometr_color.h ../src/wiatrak3.h ../src/wiatrak2.h \
+ ../src/wiatrak1.h
 
 ../src/main.h:
 
@@ -95,3 +98,15 @@ C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\include/uspien
 ../src/bitmapaZad30.h:
 
 ../src/bitmapaZad60.h:
+
+../src/grzejnik_old_color.h:
+
+../src/grzejnik_color.h:
+
+../src/termometr_color.h:
+
+../src/wiatrak3.h:
+
+../src/wiatrak2.h:
+
+../src/wiatrak1.h:

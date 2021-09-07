@@ -6,3 +6,4 @@ configDescList=org.eclipse.launchbar.core.descriptorType.default\:RPiLAB_BASE,or
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:RPiLAB_BASE/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:RPiLAB_BASE/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:RPiSIM_BASE/activeLaunchMode=run
