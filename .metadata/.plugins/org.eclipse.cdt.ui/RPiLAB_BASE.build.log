@@ -1,7 +1,7 @@
-22:13:44 **** Incremental Build of configuration RPiSIM for project RPiLAB_BASE ****
+01:43:14 **** Incremental Build of configuration RPiSIM for project RPiLAB_BASE ****
 Info: Internal Builder is used for build
 g++ -DSIMULATOR -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
 g++ "-LC:\\Users\\wegne\\Desktop\\Studia\\OSM-laby\\gierka\\RPiLAB_BASE\\Library" -static -static-libgcc -static-libstdc++ -shared -o RPiLAB_BASE.disc ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "src\\cos.o" "src\\main.o" "src\\peripherals.o" "src\\utilities.o" -lRPiLAB_DISC_LIB 
 
-22:13:45 Build Finished. 0 errors, 0 warnings. (took 1s.843ms)
+01:43:16 Build Finished. 0 errors, 0 warnings. (took 1s.439ms)
 

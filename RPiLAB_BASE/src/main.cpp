@@ -1,7 +1,5 @@
 #include "main.h"
 #include "moje_klasy.h"
-#include "stdint.h"
-
 
 
 #define WIN_PLOT
@@ -83,23 +81,10 @@ char Bufor6[5];
 
 ////////// inicjalizacja obiektow START //////////
 PID Regul(0.8, 0.5, 1, -50, 50);
-CalkModel Model(wyj_ukl);
+CalkModel Model;
 ////////// inicjalizacja obiektow END //////////
 
-void moje_rysowanie_ekran(unsigned long* ekran, unsigned long tab[], int width, int height, int x, int y)
-{
-	int k=0;
-	int i=0;
-	int j=0;
-	for(i=0;i<width;i++)
-	{
-		for(j=0;j<height;j++)
-		{
-			if (tab[k] != 0) SetPixel(ekran,(j+x),(i+y),tab[k]);
-			k++;
-		}
-	}
-}
+
 int main(void) {
 
 	if (SystemInit())		return EXIT_HALT;
@@ -117,8 +102,31 @@ int main(void) {
 		Key = getKey();
 
 		//WYWOLANIE FUNKCJI WYSWIETLAJACYCH BITMAPY
-		moje_rysowanie_ekran(SCREENBUF,grzejnik_old_color,WIDTH_grzejnik_old_color,HEIGHT_grzejnik_old_color,80,160);
-		//Tylko Patryk musi zrobic bitmapy
+
+
+		rysowanie_ekran(grzejnik_color,300,300,WIDTH_grzejnik_color,HEIGHT_grzejnik_color);
+		rysowanie_ekran(termometr_color,550,50,WIDTH_termometr_color,HEIGHT_termometr_color);
+		rysowanie_ekran(wiatrak1,50,150,WIDTH_wiatrak1,HEIGHT_wiatrak1);
+		SetPixel(SCREENBUF,585,245,0xFF0000);
+		SetPixel(SCREENBUF,586,245,0xFF0000);
+		SetPixel(SCREENBUF,587,245,0xFF0000);
+		SetPixel(SCREENBUF,588,245,0xFF0000);
+		SetPixel(SCREENBUF,589,245,0xFF0000);
+		SetPixel(SCREENBUF,560,245,0xFF0000);
+
+		SetPixel(SCREENBUF,585,269,0xFF0000);
+		SetPixel(SCREENBUF,586,269,0xFF0000);
+		SetPixel(SCREENBUF,587,269,0xFF0000);
+		SetPixel(SCREENBUF,588,269,0xFF0000);
+		SetPixel(SCREENBUF,589,269,0xFF0000);
+		SetPixel(SCREENBUF,560,269,0xFF0000);
+
+		SetPixel(SCREENBUF,585,370,0xFF0000);
+		SetPixel(SCREENBUF,586,370,0xFF0000);
+		SetPixel(SCREENBUF,587,370,0xFF0000);
+		SetPixel(SCREENBUF,588,370,0xFF0000);
+		SetPixel(SCREENBUF,589,370,0xFF0000);
+		SetPixel(SCREENBUF,560,370,0xFF0000);
 
 	}
 }
@@ -140,15 +148,13 @@ void TimerIsr() {
 	        {
 	        	preScale=0;Tim++;
 	//mamy st_zaklo i Skaler
-	        	if (Key == 1) zaklo++;
-	        	else if (Key == 2) zaklo--;
-	        	else if (Key == 4) zaklo=zaklo+3;
-	        	else if (Key == 5) zaklo=zaklo-3;
-	        	else if (Key == 7) zaklo=zaklo+6;
-	        	else if (Key == 8) zaklo=zaklo-6;
+	        	if (Key == 92) zaklo++;
+	        	else if (Key == 93) zaklo--;
+	        	else if (Key == 95) zaklo=zaklo+3;
+	        	else if (Key == 96) zaklo=zaklo-3;
 
-	        	if (Key == 12) wart_zad++;
-	        	else if (Key == 13) wart_zad--;
+	        	if (Key == 87) wart_zad++;
+	        	else if (Key == 86) wart_zad--;
 
 	        	uchyb = wart_zad - wyj_ukl;
 	        	uchyb = -uchyb;
@@ -349,7 +355,7 @@ int UpdateIO()
 #ifdef WIN_PLOT
 	// Zapis danych do pliku
 	fprintf(outputCSV,CSV_DANE);
-	printf("time %li \n",presc);
+	printf("time %li syg_ster %f wyj_ukl %f zaklo %f getkey %d\n",presc,syg_ster,wyj_ukl,zaklo,Key);
 	fflush(outputCSV);
 	fflush(stdout);
 #endif
@@ -360,25 +366,26 @@ int UpdateIO()
 }
 #endif
 
-/*void moje_rysowanie_ekran(unsigned long* ekran, unsigned int tab[], int width, int height, int x, int y)
+void rysowanie_ekran(uint32_t* tab, int posX, int posY, int length, int height)
 {
-	int k=0;
-	int i=0;
-	int j=0;
-	for(i=0;i<width;i++)
+	int dy=0;
+	int dx=0;
+	for(dy=0;dy<height;dy++)
 	{
-		for(j=0;j<height;j++)
+		for(dx=0;dx<length;dx++)
 		{
-			if (tab[k] != 0) SetPixel(ekran,(j+x),(i+y),tab[k]);
-			k++;
+			if (tab[dy * length + dx] != 0xFFFFFF)
+			{
+				SetPixel(SCREENBUF,(dx + posX),(dy + posY),tab[dy * length + dx]);
+			}
 		}
 	}
-}*/
+}
 
+void rysuj_temper(void)
+{
 
-
-
-
+}
 
 
 

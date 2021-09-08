@@ -14,6 +14,7 @@
 
 #include "utilities.h"
 #include "peripherals.h"
+#include "stdint.h"
 
 extern struct JoY JoYAct;
 int UpdateIO();
@@ -23,6 +24,7 @@ void ClearScreen();
 void DrawObjects();
 void PrintDiagnosticInfo();
 
-
+void rysowanie_ekran(uint32_t* tab, int posX, int posY, int length, int height);
+void rysuj_temper(void);
 
 #endif /* SRC_MAIN_H_ */

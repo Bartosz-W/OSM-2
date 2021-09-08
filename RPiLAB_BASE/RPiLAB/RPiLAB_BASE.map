@@ -166,1460 +166,1465 @@ END GROUP
  .begin         0x00100000        0x4 ./src/utilities.o
                 0x00100000                __start
 
-.text           0x00100008     0xfb2c
+.text           0x00100008     0xfbdc
  *(.text*)
  .text          0x00100008        0x0 ./src/cos.o
- .text          0x00100008     0x114c ./src/main.o
+ .text          0x00100008     0x1158 ./src/main.o
                 0x00100008                _Z12TimerHandlerjPvS_
-                0x0010031c                _Z20moje_rysowanie_ekranPmS_iiii
-                0x00100390                _Z8TimerIsrv
-                0x00100688                _Z11DrawObjectsv
-                0x00100d60                _Z11ClearScreenv
-                0x00100e20                _Z19PrintDiagnosticInfov
-                0x00100ed8                _Z11DataPreparev
-                0x0010102c                _Z11Synchronizev
-                0x00101060                _Z10SystemInitv
-                0x00101140                _Z8UpdateIOv
- .text.startup  0x00101154      0x1dc ./src/main.o
-                0x00101154                main
- .text          0x00101330      0x2c4 ./src/peripherals.o
-                0x00101330                _Z8checkKeyi
-                0x00101390                _Z6getKeyv
-                0x001013d8                _Z9uart_initv
-                0x001014ec                _Z16KeyboardHandlerAhPKh
-                0x00101558                _Z21GamePadStatusHandlerAjPK16USPiGamePadState
-                0x001015c0                _Z10StringUartPKc
- .text          0x001015f4      0x1c0 ./src/utilities.o
-                0x001015f4                getNumberLenght
-                0x00101760                power
-                0x00101788                randr
+                0x0010031c                _Z8TimerIsrv
+                0x00100614                _Z11DrawObjectsv
+                0x00100cec                _Z11ClearScreenv
+                0x00100dac                _Z19PrintDiagnosticInfov
+                0x00100e64                _Z11DataPreparev
+                0x00100fb8                _Z11Synchronizev
+                0x00100fec                _Z10SystemInitv
+                0x001010cc                _Z8UpdateIOv
+                0x001010e0                _Z15rysowanie_ekranPmiiii
+ .text.startup  0x00101160      0x280 ./src/main.o
+                0x00101160                main
+ .text          0x001013e0      0x2c4 ./src/peripherals.o
+                0x001013e0                _Z8checkKeyi
+                0x00101440                _Z6getKeyv
+                0x00101488                _Z9uart_initv
+                0x0010159c                _Z16KeyboardHandlerAhPKh
+                0x00101608                _Z21GamePadStatusHandlerAjPK16USPiGamePadState
+                0x00101670                _Z10StringUartPKc
+ .text          0x001016a4      0x1c0 ./src/utilities.o
+                0x001016a4                getNumberLenght
+                0x00101810                power
+                0x00101838                randr
  .text.unlikely
-                0x001017b4        0x4 ./src/utilities.o
-                0x001017b4                abort
- .text          0x001017b8        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
- .text          0x001017b8     0x1714 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
-                0x001017b8                ScreenDevice
-                0x00101808                _ScreenDevice
-                0x00101838                ScreenDeviceGetWidth
-                0x00101840                ScreenDeviceGetHeight
-                0x00101848                ScreenDeviceSetPixel
-                0x00101870                ScreenDeviceGetPixel
-                0x001018a8                ScreenDeviceCarriageReturn
-                0x001018b4                ScreenDeviceCursorHome
-                0x001018c4                ScreenDeviceCursorLeft
-                0x0010192c                ScreenDeviceCursorMove
-                0x00101980                ScreenDeviceCursorUp
-                0x001019b8                ScreenDeviceDeleteChars
-                0x001019bc                ScreenDeviceDeleteLines
-                0x001019c0                ScreenDeviceInsertLines
-                0x001019c4                ScreenDeviceInsertMode
-                0x001019cc                ScreenDeviceReverseScroll
-                0x001019d0                ScreenDeviceSetCursorMode
-                0x001019d8                ScreenDeviceSetStandoutMode
-                0x00101a80                ScreenDeviceScroll
-                0x00101ae8                ScreenDeviceCursorDown
-                0x00101b34                ScreenDeviceNewLine
-                0x00101b48                ScreenDeviceCursorRight
-                0x00101b7c                ScreenDeviceTabulator
-                0x00101bc0                ScreenDeviceDisplayChar2
-                0x00101c5c                ScreenDeviceRotor
-                0x00101cb8                ScreenDeviceDisplayChar
-                0x00101cf8                ScreenDeviceEraseChar
-                0x00101d64                ScreenDeviceClearLineEnd
-                0x00101dac                ScreenDeviceClearDisplayEnd
-                0x00101df4                ScreenDeviceEraseChars
-                0x00101e5c                ScreenDeviceWrite2
-                0x0010233c                ScreenDeviceInvertCursor
-                0x001023d8                ScreenDeviceInitialize
-                0x001024c4                ScreenDeviceWrite
-                0x00102514                ScreenDeviceDrawLine
-                0x00102598                ScreenDeviceDrawDottedLine
-                0x00102630                ScreenDeviceDrawRect
-                0x00102690                ScreenDeviceClearDisplay
-                0x001026cc                ScreenDeviceFillDisplay
-                0x001026f8                ScreenDeviceDrawChartCaption
-                0x00102828                ScreenDeviceDrawChartCaptionOXAll
-                0x00102960                ScreenDeviceDrawChartCaptionOYAll
-                0x00102a88                ScreenDeviceDrawChartCaptionOYAllCounter
-                0x00102b10                ScreenDeviceDrawDottedBackground
-                0x00102c78                ScreenDeviceDrawChart
- *fill*         0x00102ecc        0x4 
- .text          0x00102ed0      0xa6c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
-                0x00102ed0                String
-                0x00102ee0                String2
-                0x00102f10                _String
-                0x00102f38                StringGet
-                0x00102f50                StringSet
-                0x00102f98                StringGetLength
-                0x00102fb8                StringAppend
-                0x00103048                StringCompare
-                0x00103058                StringFind
-                0x001030a8                StringReserveSpace
-                0x00103118                StringPutChar
-                0x0010315c                StringPutString
-                0x0010319c                ntoa
-                0x0010325c                StringFormatV
-                0x00103910                StringFormat
- .text          0x0010393c      0x1e0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
-                0x0010393c                MsDelay
-                0x00103954                usDelay
-                0x0010396c                StartKernelTimer
-                0x001039a4                CancelKernelTimer
-                0x001039bc                ConnectInterrupt
-                0x001039e4                SetPowerStateOn
-                0x00103a60                GetMACAddress
-                0x00103ad4                LogWrite
- .text          0x00103b1c      0x150 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
-                0x00103b1c                USPiEnvInitialize
-                0x00103c24                USPiEnvClose
-                0x00103c60                USPiEnvGetScreen
- .text          0x00103c6c      0x2a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
-                0x00103c6c                memset
-                0x00103c8c                memcpy
-                0x00103cb0                memcmp
-                0x00103d28                strlen
-                0x00103d58                strcmp
-                0x00103dfc                strcpy
-                0x00103e30                strncpy
-                0x00103e84                strcat
-                0x00103ed0                char2int
-                0x00103ee0                le2be16
-                0x00103ef0                le2be32
- .text          0x00103f14       0x20 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
-                0x00103f14                memcpyblk
- .text          0x00103f34      0x170 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
-                0x00103f34                _MemorySystem
-                0x00103f90                MemorySystemGetMemSize
-                0x00103f98                MemorySystemEnableMMU
-                0x00103ff4                MemorySystem
- .text          0x001040a4      0x19c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
-                0x001040a4                PageTable
-                0x0010413c                PageTable2
-                0x0010420c                _PageTable
-                0x00104234                PageTableGetBaseAddress
- .text          0x00104240      0x1ac C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
-                0x00104240                ExceptionHandler2
-                0x001042b8                _ExceptionHandler
-                0x001042cc                ExceptionHandlerThrow
-                0x00104308                ExceptionHandlerThrow2
-                0x001043b8                ExceptionHandlerGet
-                0x001043c8                ExceptionHandler
- .text          0x001043ec       0x70 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
-                0x001043ec                _start
-                0x00104450                _start_secondary
- .text          0x0010445c      0x26c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
-                0x0010445c                mem_init
-                0x001044a0                mem_get_size
-                0x001044c8                malloc
-                0x001045b4                free
-                0x00104624                palloc
-                0x00104694                pfree
- .text          0x001046c8      0x208 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
-                0x001046c8                BcmFrameBuffer
-                0x001047f8                _BcmFrameBuffer
-                0x0010481c                BcmFrameBufferSetPalette
-                0x00104838                BcmFrameBufferInitialize
-                0x00104884                BcmFrameBufferGetWidth
-                0x00104890                BcmFrameBufferGetHeight
-                0x0010489c                BcmFrameBufferGetPitch
-                0x001048a8                BcmFrameBufferGetDepth
-                0x001048b4                BcmFrameBufferGetBuffer
-                0x001048c4                BcmFrameBufferGetSize
- .text          0x001048d0      0x108 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
-                0x001048d0                BcmPropertyTags
-                0x001048e0                _BcmPropertyTags
-                0x001048ec                BcmPropertyTagsGetTag
- .text          0x001049d8       0x7c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
-                0x001049d8                CharGenerator
-                0x001049e4                _CharGenerator
-                0x001049e8                CharGeneratorGetCharWidth
-                0x001049f0                CharGeneratorGetCharHeight
-                0x001049f8                CharGeneratorGetUnderline
-                0x00104a00                CharGeneratorGetPixel
- .text          0x00104a54       0xe0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
-                0x00104a54                UndefinedInstructionStub
-                0x00104a98                PrefetchAbortStub
-                0x00104adc                DataAbortStub
-                0x00104b20                IRQStub
- .text          0x00104b34      0x2e0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
-                0x00104b34                InterruptSystem
-                0x00104b64                _InterruptSystem
-                0x00104b78                InterruptSystemInitialize
-                0x00104c58                InterruptSystemEnableIRQ
-                0x00104ca8                InterruptSystemConnectIRQ
-                0x00104cc4                InterruptSystemDisableIRQ
-                0x00104d14                InterruptSystemDisconnectIRQ
-                0x00104d3c                InterruptSystemGet
-                0x00104d4c                InterruptSystemCallIRQHandler
-                0x00104d80                InterruptHandler
- .text          0x00104e14       0x50 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
-                0x00104e14                __aeabi_uidiv
-                0x00104e24                __aeabi_uidivmod
-                0x00104e40                PUT32
-                0x00104e48                PUT16
-                0x00104e50                PUT8
-                0x00104e58                GET32
-                0x00104e60                dummy
- .text          0x00104e64      0x324 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
-                0x00104e64                Logger
-                0x00104e84                _Logger
-                0x00104ea0                LoggerInitialize
-                0x00104eac                LoggerGet
-                0x00104ebc                LoggerWrite2
-                0x00104ee4                LoggerWriteV
-                0x00105158                LoggerWrite
- .text          0x00105188       0x10 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
-                0x00105188                read32
-                0x00105190                write32
- .text          0x00105198      0x210 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
-                0x00105198                EnterCritical
-                0x001051d4                LeaveCritical
-                0x00105208                InvalidateDataCache
-                0x00105290                CleanDataCache
-                0x00105318                InvalidateDataCacheRange
-                0x00105348                CleanDataCacheRange
-                0x00105378                CleanAndInvalidateDataCacheRange
- .text          0x001053a8       0xc8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
-                0x001053a8                halt
-                0x001053b0                reboot
-                0x001053e4                sysinit
- .text          0x00105470      0x4a0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
-                0x00105470                Timer
-                0x001054d8                _Timer
-                0x001054ec                TimerGetClockTicks
-                0x00105508                TimerGetTicks
-                0x00105510                TimerGetTime
-                0x00105518                TimerGetTimeString
-                0x001055d4                TimerStartKernelTimer
-                0x00105674                TimerCancelKernelTimer
-                0x00105688                TimerMsDelay
-                0x001056a4                TimerusDelay
-                0x001056c0                TimerGet
-                0x001056d0                TimerSimpleusDelay
-                0x00105718                TimerSimpleMsDelay
-                0x00105734                TimerPollKernelTimers
-                0x00105798                TimerInterruptHandler
-                0x00105848                TimerTuneMsDelay
-                0x001058a8                TimerInitialize
- .text          0x00105910       0xfc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
-                0x00105910                BcmMailBox
-                0x00105918                _BcmMailBox
-                0x0010591c                BcmMailBoxFlush
-                0x00105958                BcmMailBoxRead
-                0x001059a0                BcmMailBoxWrite
-                0x001059dc                BcmMailBoxWriteRead
- *fill*         0x00105a0c        0x4 
- .text          0x00105a10        0xc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
-                0x00105a10                DelayLoop
- .text          0x00105a1c       0xc0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
-                0x00105a1c                Divide
- .text          0x00105adc      0x72c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
-                0x00105adc                USPiInitialize
-                0x00105cc0                USPiKeyboardAvailable
-                0x00105cdc                USPiKeyboardRegisterKeyPressedHandler
-                0x00105cfc                USPiKeyboardRegisterShutdownHandler
-                0x00105d1c                USPiKeyboardRegisterKeyStatusHandlerRaw
-                0x00105d3c                USPiMouseAvailable
-                0x00105d58                USPiMouseRegisterStatusHandler
-                0x00105d78                USPiMassStorageDeviceAvailable
-                0x00105dd4                USPiMassStorageDeviceRead
-                0x00105e64                USPiMassStorageDeviceWrite
-                0x00105ef4                USPiMassStorageDeviceGetCapacity
-                0x00105f34                USPiEthernetAvailable
-                0x00105f50                USPiGetMACAddress
-                0x00105f78                USPiSendFrame
-                0x00105fa4                USPiReceiveFrame
-                0x00105fd0                USPiGamePadAvailable
-                0x0010602c                USPiGamePadRegisterStatusHandler
-                0x0010606c                USPiGamePadGetStatus
-                0x001060cc                USPiDeviceGetInformation
- .text          0x00106208     0x1bcc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
-                0x00106208                DWHCIDeviceCompletionRoutine
-                0x00106214                DWHCIDevice
-                0x00106254                _DWHCIDevice
-                0x00106264                DWHCIDeviceEnableGlobalInterrupts
-                0x001062a8                DWHCIDeviceEnableCommonInterrupts
-                0x001062e0                DWHCIDeviceEnableHostInterrupts
-                0x0010633c                DWHCIDeviceEnableChannelInterrupt
-                0x00106390                DWHCIDeviceDisableChannelInterrupt
-                0x001063e4                DWHCIDeviceStartChannel
-                0x00106758                DWHCIDeviceStartTransaction
-                0x0010681c                DWHCIDeviceTimerHandler
-                0x00106888                DWHCIDeviceAllocateChannel
-                0x00106904                DWHCIDeviceFreeChannel
-                0x0010692c                DWHCIDeviceTransferStageAsync
-                0x00106a3c                DWHCIDeviceSubmitAsyncRequest
-                0x00106a80                DWHCIDeviceTransferStage
-                0x00106af4                DWHCIDeviceSubmitBlockingRequest
-                0x00106c68                DWHCIDeviceControlMessage
-                0x00106d08                DWHCIDeviceGetDescriptor
-                0x00106d44                DWHCIDeviceSetAddress
-                0x00106d90                DWHCIDeviceSetConfiguration
-                0x00106ddc                DWHCIDeviceTransfer
-                0x00106e34                DWHCIDeviceChannelInterruptHandler
-                0x0010734c                DWHCIDeviceInterruptHandler
-                0x0010743c                DWHCIDeviceWaitForBit
-                0x001074a0                DWHCIDeviceEnableRootPort
-                0x0010756c                DWHCIDeviceReset
-                0x00107620                DWHCIDeviceInitCore
-                0x001077ec                DWHCIDeviceFlushTxFIFO
-                0x00107878                DWHCIDeviceFlushRxFIFO
-                0x001078e8                DWHCIDeviceInitHost
-                0x00107ae4                DWHCIDeviceInitialize
-                0x00107ce8                DWHCIDeviceGetPortSpeed
-                0x00107d44                DWHCIDeviceOvercurrentDetected
-                0x00107d90                DWHCIDeviceDisableRootPort
- .text          0x00107dd4       0xf8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
-                0x00107dd4                DWHCIRegister
-                0x00107de4                DWHCIRegister2
-                0x00107df8                _DWHCIRegister
-                0x00107e04                DWHCIRegisterRead
-                0x00107e20                DWHCIRegisterWrite
-                0x00107e30                DWHCIRegisterGet
-                0x00107e38                DWHCIRegisterSet
-                0x00107e48                DWHCIRegisterIsSet
-                0x00107e5c                DWHCIRegisterAnd
-                0x00107e6c                DWHCIRegisterOr
-                0x00107e7c                DWHCIRegisterClearBit
-                0x00107e90                DWHCIRegisterSetBit
-                0x00107ea4                DWHCIRegisterClearAll
-                0x00107eb8                DWHCIRegisterSetAll
- .text          0x00107ecc      0x500 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
-                0x00107ecc                _DWHCITransferStageData
-                0x00107f2c                DWHCITransferStageDataTransactionComplete
-                0x00108008                DWHCITransferStageDataSetSplitComplete
-                0x00108010                DWHCITransferStageDataSetState
-                0x00108018                DWHCITransferStageDataGetState
-                0x00108020                DWHCITransferStageDataSetSubState
-                0x00108028                DWHCITransferStageDataGetSubState
-                0x00108030                DWHCITransferStageDataBeginSplitCycle
-                0x00108038                DWHCITransferStageDataGetChannelNumber
-                0x00108040                DWHCITransferStageDataIsPeriodic
-                0x00108064                DWHCITransferStageData
-                0x00108270                DWHCITransferStageDataGetDeviceAddress
-                0x00108280                DWHCITransferStageDataGetEndpointType
-                0x001082ac                DWHCITransferStageDataGetEndpointNumber
-                0x001082bc                DWHCITransferStageDataGetMaxPacketSize
-                0x001082c4                DWHCITransferStageDataGetSpeed
-                0x001082cc                DWHCITransferStageDataGetPID
-                0x001082fc                DWHCITransferStageDataIsDirectionIn
-                0x00108304                DWHCITransferStageDataIsStatusStage
-                0x0010830c                DWHCITransferStageDataGetDMAAddress
-                0x00108314                DWHCITransferStageDataGetBytesToTransfer
-                0x0010831c                DWHCITransferStageDataGetPacketsToTransfer
-                0x00108324                DWHCITransferStageDataIsSplit
-                0x0010832c                DWHCITransferStageDataIsSplitComplete
-                0x00108334                DWHCITransferStageDataGetHubAddress
-                0x00108344                DWHCITransferStageDataGetHubPortAddress
-                0x00108354                DWHCITransferStageDataGetSplitPosition
-                0x0010835c                DWHCITransferStageDataGetStatusMask
-                0x00108390                DWHCITransferStageDataGetTransactionStatus
-                0x00108398                DWHCITransferStageDataIsStageComplete
-                0x001083a8                DWHCITransferStageDataGetResultLen
-                0x001083bc                DWHCITransferStageDataGetURB
-                0x001083c4                DWHCITransferStageDataGetFrameScheduler
- .text          0x001083cc      0x724 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
-                0x001083cc                USBDeviceConfigure
-                0x0010842c                USBDevice
-                0x00108498                USBDeviceCopy
-                0x0010858c                _USBDevice
-                0x00108624                USBDeviceGetName
-                0x00108714                USBDeviceGetAddress
-                0x0010871c                USBDeviceGetSpeed
-                0x00108724                USBDeviceGetHubAddress
-                0x0010872c                USBDeviceGetHubPortNumber
-                0x00108734                USBDeviceGetEndpoint0
-                0x0010873c                USBDeviceGetHost
-                0x00108744                USBDeviceGetDeviceDescriptor
-                0x0010874c                USBDeviceGetConfigurationDescriptor
-                0x00108754                USBDeviceGetDescriptor
-                0x00108764                USBDeviceConfigurationError
-                0x00108774                USBDeviceInitialize
-                0x00108ae8                USBDeviceSetAddress
- .text          0x00108af0      0x208 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
-                0x00108af0                USBEndpoint
-                0x00108b1c                USBEndpoint2
-                0x00108c04                USBEndpointCopy
-                0x00108c3c                _USBEndpoint
-                0x00108c48                USBEndpointGetDevice
-                0x00108c50                USBEndpointGetNumber
-                0x00108c58                USBEndpointGetType
-                0x00108c60                USBEndpointIsDirectionIn
-                0x00108c68                USBEndpointSetMaxPacketSize
-                0x00108c70                USBEndpointGetMaxPacketSize
-                0x00108c78                USBEndpointGetInterval
-                0x00108c80                USBEndpointGetNextPID
-                0x00108c90                USBEndpointSkipPID
-                0x00108cec                USBEndpointResetPID
- .text          0x00108cf8       0xb0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
-                0x00108cf8                USBRequest
-                0x00108d28                _USBRequest
-                0x00108d40                USBRequestGetEndpoint
-                0x00108d48                USBRequestSetStatus
-                0x00108d50                USBRequestSetResultLen
-                0x00108d58                USBRequestGetStatus
-                0x00108d60                USBRequestGetResultLength
-                0x00108d68                USBRequestGetSetupData
-                0x00108d70                USBRequestGetBuffer
-                0x00108d78                USBRequestGetBufLen
-                0x00108d80                USBRequestSetCompletionRoutine
-                0x00108d90                USBRequestCallCompletionRoutine
- .text          0x00108da8      0x14c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
-                0x00108da8                DeviceNameService
-                0x00108dc0                _DeviceNameService
-                0x00108e34                DeviceNameServiceAddDevice
-                0x00108e88                DeviceNameServiceGetDevice
-                0x00108ee4                DeviceNameServiceGet
- .text          0x00108ef4      0x140 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
-                0x00108ef4                MACAddress
-                0x00108f00                _MACAddress
-                0x00108f0c                MACAddressIsEqual
-                0x00108f2c                MACAddressSet
-                0x00108f4c                MACAddress2
-                0x00108f58                MACAddressSetBroadcast
-                0x00108f7c                MACAddressGet
-                0x00108f84                MACAddressCopyTo
-                0x00108fa0                MACAddressIsBroadcast
-                0x00108fe0                MACAddressGetSize
-                0x00108fe8                MACAddressFormat
- .text          0x00109034      0x65c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
-                0x00109034                SMSC951xDevice
-                0x00109068                _SMSC951xDevice
-                0x001090d4                SMSC951xDeviceGetMACAddress
-                0x001090dc                SMSC951xDeviceSendFrame
-                0x00109140                SMSC951xDeviceReceiveFrame
-                0x00109240                SMSC951xDeviceWriteReg
-                0x001092a8                SMSC951xDeviceConfigure
-                0x00109628                SMSC951xDeviceReadReg
- .text          0x00109690      0x2a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
-                0x00109690                uspi_memset
-                0x001096b0                uspi_memcpy
-                0x001096d4                uspi_memcmp
-                0x0010974c                uspi_strlen
-                0x0010977c                uspi_strcmp
-                0x00109820                uspi_strcpy
-                0x00109854                uspi_strncpy
-                0x001098a8                uspi_strcat
-                0x001098f4                uspi_char2int
-                0x00109904                uspi_le2be16
-                0x00109914                uspi_le2be32
- .text          0x00109938      0xb54 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
-                0x00109938                USBBulkOnlyMassStorageDevice
-                0x00109974                _USBBulkOnlyMassStorageDevice
-                0x001099c8                USBBulkOnlyMassStorageDeviceSeek
-                0x001099d8                USBBulkOnlyMassStorageDeviceGetCapacity
-                0x001099e0                USBBulkOnlyMassStorageDeviceCommand
-                0x00109be8                USBBulkOnlyMassStorageDeviceConfigure
-                0x0010a0c0                USBBulkOnlyMassStorageDeviceTryRead
-                0x0010a1b8                USBBulkOnlyMassStorageDeviceTryWrite
-                0x0010a2ac                USBBulkOnlyMassStorageDeviceReset
-                0x0010a3e4                USBBulkOnlyMassStorageDeviceRead
-                0x0010a438                USBBulkOnlyMassStorageDeviceWrite
- .text          0x0010a48c      0x190 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
-                0x0010a48c                _DWHCIFrameSchedulerNonPeriodic
-                0x0010a498                DWHCIFrameSchedulerNonPeriodicStartSplit
-                0x0010a4a4                DWHCIFrameSchedulerNonPeriodicWaitForFrame
-                0x0010a4a8                DWHCIFrameSchedulerNonPeriodicIsOddFrame
-                0x0010a4b0                DWHCIFrameSchedulerNonPeriodicCompleteSplit
-                0x0010a500                DWHCIFrameSchedulerNonPeriodicTransactionComplete
-                0x0010a5c8                DWHCIFrameSchedulerNonPeriodic
- .text          0x0010a61c      0x218 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
-                0x0010a61c                _DWHCIFrameSchedulerPeriodic
-                0x0010a628                DWHCIFrameSchedulerPeriodicStartSplit
-                0x0010a63c                DWHCIFrameSchedulerPeriodicCompleteSplit
-                0x0010a6a4                DWHCIFrameSchedulerPeriodicIsOddFrame
-                0x0010a6b0                DWHCIFrameSchedulerPeriodicTransactionComplete
-                0x0010a76c                DWHCIFrameSchedulerPeriodicWaitForFrame
-                0x0010a7d8                DWHCIFrameSchedulerPeriodic
- .text          0x0010a834      0x560 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
-                0x0010a894                USBKeyboardDeviceConfigure
-                0x0010acc8                USBKeyboardDevice
-                0x0010ad20                _CUSBKeyboardDevice
-                0x0010ad74                USBKeyboardDeviceRegisterKeyPressedHandler
-                0x0010ad7c                USBKeyboardDeviceRegisterSelectConsoleHandler
-                0x0010ad84                USBKeyboardDeviceRegisterShutdownHandler
-                0x0010ad8c                USBKeyboardDeviceRegisterKeyStatusHandlerRaw
- .text          0x0010ad94      0x1e8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
-                0x0010ad94                DWHCIRootPort
-                0x0010ada4                _DWHCIRootPort
-                0x0010add8                DWHCIRootPortInitialize
- .text          0x0010af7c      0x400 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
-                0x0010afdc                USBMouseDeviceConfigure
-                0x0010b2f0                USBMouseDevice
-                0x0010b328                _CUSBMouseDevice
-                0x0010b374                USBMouseDeviceRegisterStatusHandler
- .text          0x0010b37c       0xdc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
-                0x0010b37c                _DWHCIFrameSchedulerNoSplit
-                0x0010b380                DWHCIFrameSchedulerNoSplitStartSplit
-                0x0010b384                DWHCIFrameSchedulerNoSplitCompleteSplit
-                0x0010b38c                DWHCIFrameSchedulerNoSplitTransactionComplete
-                0x0010b390                DWHCIFrameSchedulerNoSplitIsOddFrame
-                0x0010b39c                DWHCIFrameSchedulerNoSplitWaitForFrame
-                0x0010b400                DWHCIFrameSchedulerNoSplit
- .text          0x0010b458      0xc24 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
-                0x0010ba04                USBGamePadDeviceConfigure
-                0x0010bf00                USBGamePadDevice
-                0x0010bf98                _CUSBGamePadDevice
-                0x0010c01c                USBGamePadDeviceRegisterStatusHandler
-                0x0010c024                USBGamePadDeviceGetReport
- .text          0x0010c07c       0xa0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
-                0x0010c07c                uspi_EnterCritical
-                0x0010c0b8                uspi_LeaveCritical
-                0x0010c0ec                uspi_CleanAndInvalidateDataCacheRange
- .text          0x0010c11c      0x458 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
-                0x0010c11c                USBString
-                0x0010c144                USBStringCopy
-                0x0010c1ac                _USBString
-                0x0010c1f0                USBStringGetFromDescriptor
-                0x0010c3c0                USBStringGet
-                0x0010c3d0                USBStringGetLanguageID
- .text          0x0010c574      0x214 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
-                0x0010c574                USBConfigurationParser
-                0x0010c6a0                _USBConfigurationParser
-                0x0010c6ac                USBConfigurationParserIsValid
-                0x0010c6b4                USBConfigurationParserGetDescriptor
-                0x0010c75c                USBConfigurationParserError
- .text          0x0010c788      0x1a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
-                0x0010c788                GetDevice
-                0x0010c8d0                USBDeviceFactoryGetDevice
- .text          0x0010c930      0xa88 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
-                0x0010c930                USBStandardHub
-                0x0010c974                _USBStandardHub
-                0x0010ca04                USBStandardHubInitialize
-                0x0010ca10                USBStandardHubGetDeviceNames
-                0x0010cad0                USBStandardHubEnumeratePorts
-                0x0010d0bc                USBStandardHubConfigure
- .text          0x0010d3b8      0x2c8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
-                0x0010d3b8                KeyMap
-                0x0010d3e4                _KeyMap
-                0x0010d3e8                KeyMapClearTable
-                0x0010d41c                KeyMapSetEntry
-                0x0010d468                KeyMapTranslate
-                0x0010d590                KeyMapGetString
-                0x0010d64c                KeyMapGetLEDStatus
- .text          0x0010d680      0x290 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
-                0x0010d680                __muldf3
-                0x0010d680                __aeabi_dmul
- .text          0x0010d910      0x198 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
-                0x0010d910                __aeabi_fmul
-                0x0010d910                __mulsf3
- .text          0x0010daa8      0x424 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
-                0x0010daa8                __aeabi_drsub
-                0x0010dab0                __aeabi_dsub
-                0x0010dab0                __subdf3
-                0x0010dab4                __aeabi_dadd
-                0x0010dab4                __adddf3
-                0x0010ddc4                __floatunsidf
-                0x0010ddc4                __aeabi_ui2d
-                0x0010dde8                __floatsidf
-                0x0010dde8                __aeabi_i2d
-                0x0010de10                __aeabi_f2d
-                0x0010de10                __extendsfdf2
-                0x0010de58                __floatundidf
-                0x0010de58                __aeabi_ul2d
-                0x0010de6c                __floatdidf
-                0x0010de6c                __aeabi_l2d
- .text          0x0010decc      0x144 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
-                0x0010decc                __gtdf2
-                0x0010decc                __gedf2
-                0x0010ded4                __ltdf2
-                0x0010ded4                __ledf2
-                0x0010dedc                __nedf2
-                0x0010dedc                __eqdf2
-                0x0010dedc                __cmpdf2
-                0x0010df64                __aeabi_cdrcmple
-                0x0010df80                __aeabi_cdcmpeq
-                0x0010df80                __aeabi_cdcmple
-                0x0010df98                __aeabi_dcmpeq
-                0x0010dfb0                __aeabi_dcmplt
-                0x0010dfc8                __aeabi_dcmple
-                0x0010dfe0                __aeabi_dcmpge
-                0x0010dff8                __aeabi_dcmpgt
- .text          0x0010e010       0xa0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
-                0x0010e010                __truncdfsf2
-                0x0010e010                __aeabi_d2f
- .text          0x0010e0b0      0x2ac c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
-                0x0010e0b0                __aeabi_frsub
-                0x0010e0b8                __subsf3
-                0x0010e0b8                __aeabi_fsub
-                0x0010e0bc                __aeabi_fadd
-                0x0010e0bc                __addsf3
-                0x0010e278                __aeabi_ui2f
-                0x0010e278                __floatunsisf
-                0x0010e280                __aeabi_i2f
-                0x0010e280                __floatsisf
-                0x0010e2a0                __aeabi_ul2f
-                0x0010e2a0                __floatundisf
-                0x0010e2b0                __aeabi_l2f
-                0x0010e2b0                __floatdisf
- .text          0x0010e35c      0x114 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
-                0x0010e35c                __gesf2
-                0x0010e35c                __gtsf2
-                0x0010e364                __lesf2
-                0x0010e364                __ltsf2
-                0x0010e36c                __nesf2
-                0x0010e36c                __eqsf2
-                0x0010e36c                __cmpsf2
-                0x0010e3d0                __aeabi_cfrcmple
-                0x0010e3e0                __aeabi_cfcmpeq
-                0x0010e3e0                __aeabi_cfcmple
-                0x0010e3f8                __aeabi_fcmpeq
-                0x0010e410                __aeabi_fcmplt
-                0x0010e428                __aeabi_fcmple
-                0x0010e440                __aeabi_fcmpge
-                0x0010e458                __aeabi_fcmpgt
- .text          0x0010e470        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00101864        0x4 ./src/utilities.o
+                0x00101864                abort
+ .text          0x00101868        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .text          0x00101868     0x1714 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+                0x00101868                ScreenDevice
+                0x001018b8                _ScreenDevice
+                0x001018e8                ScreenDeviceGetWidth
+                0x001018f0                ScreenDeviceGetHeight
+                0x001018f8                ScreenDeviceSetPixel
+                0x00101920                ScreenDeviceGetPixel
+                0x00101958                ScreenDeviceCarriageReturn
+                0x00101964                ScreenDeviceCursorHome
+                0x00101974                ScreenDeviceCursorLeft
+                0x001019dc                ScreenDeviceCursorMove
+                0x00101a30                ScreenDeviceCursorUp
+                0x00101a68                ScreenDeviceDeleteChars
+                0x00101a6c                ScreenDeviceDeleteLines
+                0x00101a70                ScreenDeviceInsertLines
+                0x00101a74                ScreenDeviceInsertMode
+                0x00101a7c                ScreenDeviceReverseScroll
+                0x00101a80                ScreenDeviceSetCursorMode
+                0x00101a88                ScreenDeviceSetStandoutMode
+                0x00101b30                ScreenDeviceScroll
+                0x00101b98                ScreenDeviceCursorDown
+                0x00101be4                ScreenDeviceNewLine
+                0x00101bf8                ScreenDeviceCursorRight
+                0x00101c2c                ScreenDeviceTabulator
+                0x00101c70                ScreenDeviceDisplayChar2
+                0x00101d0c                ScreenDeviceRotor
+                0x00101d68                ScreenDeviceDisplayChar
+                0x00101da8                ScreenDeviceEraseChar
+                0x00101e14                ScreenDeviceClearLineEnd
+                0x00101e5c                ScreenDeviceClearDisplayEnd
+                0x00101ea4                ScreenDeviceEraseChars
+                0x00101f0c                ScreenDeviceWrite2
+                0x001023ec                ScreenDeviceInvertCursor
+                0x00102488                ScreenDeviceInitialize
+                0x00102574                ScreenDeviceWrite
+                0x001025c4                ScreenDeviceDrawLine
+                0x00102648                ScreenDeviceDrawDottedLine
+                0x001026e0                ScreenDeviceDrawRect
+                0x00102740                ScreenDeviceClearDisplay
+                0x0010277c                ScreenDeviceFillDisplay
+                0x001027a8                ScreenDeviceDrawChartCaption
+                0x001028d8                ScreenDeviceDrawChartCaptionOXAll
+                0x00102a10                ScreenDeviceDrawChartCaptionOYAll
+                0x00102b38                ScreenDeviceDrawChartCaptionOYAllCounter
+                0x00102bc0                ScreenDeviceDrawDottedBackground
+                0x00102d28                ScreenDeviceDrawChart
+ *fill*         0x00102f7c        0x4 
+ .text          0x00102f80      0xa6c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
+                0x00102f80                String
+                0x00102f90                String2
+                0x00102fc0                _String
+                0x00102fe8                StringGet
+                0x00103000                StringSet
+                0x00103048                StringGetLength
+                0x00103068                StringAppend
+                0x001030f8                StringCompare
+                0x00103108                StringFind
+                0x00103158                StringReserveSpace
+                0x001031c8                StringPutChar
+                0x0010320c                StringPutString
+                0x0010324c                ntoa
+                0x0010330c                StringFormatV
+                0x001039c0                StringFormat
+ .text          0x001039ec      0x1e0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+                0x001039ec                MsDelay
+                0x00103a04                usDelay
+                0x00103a1c                StartKernelTimer
+                0x00103a54                CancelKernelTimer
+                0x00103a6c                ConnectInterrupt
+                0x00103a94                SetPowerStateOn
+                0x00103b10                GetMACAddress
+                0x00103b84                LogWrite
+ .text          0x00103bcc      0x150 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+                0x00103bcc                USPiEnvInitialize
+                0x00103cd4                USPiEnvClose
+                0x00103d10                USPiEnvGetScreen
+ .text          0x00103d1c      0x2a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
+                0x00103d1c                memset
+                0x00103d3c                memcpy
+                0x00103d60                memcmp
+                0x00103dd8                strlen
+                0x00103e08                strcmp
+                0x00103eac                strcpy
+                0x00103ee0                strncpy
+                0x00103f34                strcat
+                0x00103f80                char2int
+                0x00103f90                le2be16
+                0x00103fa0                le2be32
+ .text          0x00103fc4       0x20 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+                0x00103fc4                memcpyblk
+ .text          0x00103fe4      0x170 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+                0x00103fe4                _MemorySystem
+                0x00104040                MemorySystemGetMemSize
+                0x00104048                MemorySystemEnableMMU
+                0x001040a4                MemorySystem
+ .text          0x00104154      0x19c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+                0x00104154                PageTable
+                0x001041ec                PageTable2
+                0x001042bc                _PageTable
+                0x001042e4                PageTableGetBaseAddress
+ .text          0x001042f0      0x1ac C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+                0x001042f0                ExceptionHandler2
+                0x00104368                _ExceptionHandler
+                0x0010437c                ExceptionHandlerThrow
+                0x001043b8                ExceptionHandlerThrow2
+                0x00104468                ExceptionHandlerGet
+                0x00104478                ExceptionHandler
+ .text          0x0010449c       0x70 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+                0x0010449c                _start
+                0x00104500                _start_secondary
+ .text          0x0010450c      0x26c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+                0x0010450c                mem_init
+                0x00104550                mem_get_size
+                0x00104578                malloc
+                0x00104664                free
+                0x001046d4                palloc
+                0x00104744                pfree
+ .text          0x00104778      0x208 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+                0x00104778                BcmFrameBuffer
+                0x001048a8                _BcmFrameBuffer
+                0x001048cc                BcmFrameBufferSetPalette
+                0x001048e8                BcmFrameBufferInitialize
+                0x00104934                BcmFrameBufferGetWidth
+                0x00104940                BcmFrameBufferGetHeight
+                0x0010494c                BcmFrameBufferGetPitch
+                0x00104958                BcmFrameBufferGetDepth
+                0x00104964                BcmFrameBufferGetBuffer
+                0x00104974                BcmFrameBufferGetSize
+ .text          0x00104980      0x108 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+                0x00104980                BcmPropertyTags
+                0x00104990                _BcmPropertyTags
+                0x0010499c                BcmPropertyTagsGetTag
+ .text          0x00104a88       0x7c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+                0x00104a88                CharGenerator
+                0x00104a94                _CharGenerator
+                0x00104a98                CharGeneratorGetCharWidth
+                0x00104aa0                CharGeneratorGetCharHeight
+                0x00104aa8                CharGeneratorGetUnderline
+                0x00104ab0                CharGeneratorGetPixel
+ .text          0x00104b04       0xe0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+                0x00104b04                UndefinedInstructionStub
+                0x00104b48                PrefetchAbortStub
+                0x00104b8c                DataAbortStub
+                0x00104bd0                IRQStub
+ .text          0x00104be4      0x2e0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+                0x00104be4                InterruptSystem
+                0x00104c14                _InterruptSystem
+                0x00104c28                InterruptSystemInitialize
+                0x00104d08                InterruptSystemEnableIRQ
+                0x00104d58                InterruptSystemConnectIRQ
+                0x00104d74                InterruptSystemDisableIRQ
+                0x00104dc4                InterruptSystemDisconnectIRQ
+                0x00104dec                InterruptSystemGet
+                0x00104dfc                InterruptSystemCallIRQHandler
+                0x00104e30                InterruptHandler
+ .text          0x00104ec4       0x50 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+                0x00104ec4                __aeabi_uidiv
+                0x00104ed4                __aeabi_uidivmod
+                0x00104ef0                PUT32
+                0x00104ef8                PUT16
+                0x00104f00                PUT8
+                0x00104f08                GET32
+                0x00104f10                dummy
+ .text          0x00104f14      0x324 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+                0x00104f14                Logger
+                0x00104f34                _Logger
+                0x00104f50                LoggerInitialize
+                0x00104f5c                LoggerGet
+                0x00104f6c                LoggerWrite2
+                0x00104f94                LoggerWriteV
+                0x00105208                LoggerWrite
+ .text          0x00105238       0x10 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+                0x00105238                read32
+                0x00105240                write32
+ .text          0x00105248      0x210 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+                0x00105248                EnterCritical
+                0x00105284                LeaveCritical
+                0x001052b8                InvalidateDataCache
+                0x00105340                CleanDataCache
+                0x001053c8                InvalidateDataCacheRange
+                0x001053f8                CleanDataCacheRange
+                0x00105428                CleanAndInvalidateDataCacheRange
+ .text          0x00105458       0xc8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+                0x00105458                halt
+                0x00105460                reboot
+                0x00105494                sysinit
+ .text          0x00105520      0x4a0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x00105520                Timer
+                0x00105588                _Timer
+                0x0010559c                TimerGetClockTicks
+                0x001055b8                TimerGetTicks
+                0x001055c0                TimerGetTime
+                0x001055c8                TimerGetTimeString
+                0x00105684                TimerStartKernelTimer
+                0x00105724                TimerCancelKernelTimer
+                0x00105738                TimerMsDelay
+                0x00105754                TimerusDelay
+                0x00105770                TimerGet
+                0x00105780                TimerSimpleusDelay
+                0x001057c8                TimerSimpleMsDelay
+                0x001057e4                TimerPollKernelTimers
+                0x00105848                TimerInterruptHandler
+                0x001058f8                TimerTuneMsDelay
+                0x00105958                TimerInitialize
+ .text          0x001059c0       0xfc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+                0x001059c0                BcmMailBox
+                0x001059c8                _BcmMailBox
+                0x001059cc                BcmMailBoxFlush
+                0x00105a08                BcmMailBoxRead
+                0x00105a50                BcmMailBoxWrite
+                0x00105a8c                BcmMailBoxWriteRead
+ *fill*         0x00105abc        0x4 
+ .text          0x00105ac0        0xc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+                0x00105ac0                DelayLoop
+ .text          0x00105acc       0xc0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+                0x00105acc                Divide
+ .text          0x00105b8c      0x72c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+                0x00105b8c                USPiInitialize
+                0x00105d70                USPiKeyboardAvailable
+                0x00105d8c                USPiKeyboardRegisterKeyPressedHandler
+                0x00105dac                USPiKeyboardRegisterShutdownHandler
+                0x00105dcc                USPiKeyboardRegisterKeyStatusHandlerRaw
+                0x00105dec                USPiMouseAvailable
+                0x00105e08                USPiMouseRegisterStatusHandler
+                0x00105e28                USPiMassStorageDeviceAvailable
+                0x00105e84                USPiMassStorageDeviceRead
+                0x00105f14                USPiMassStorageDeviceWrite
+                0x00105fa4                USPiMassStorageDeviceGetCapacity
+                0x00105fe4                USPiEthernetAvailable
+                0x00106000                USPiGetMACAddress
+                0x00106028                USPiSendFrame
+                0x00106054                USPiReceiveFrame
+                0x00106080                USPiGamePadAvailable
+                0x001060dc                USPiGamePadRegisterStatusHandler
+                0x0010611c                USPiGamePadGetStatus
+                0x0010617c                USPiDeviceGetInformation
+ .text          0x001062b8     0x1bcc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+                0x001062b8                DWHCIDeviceCompletionRoutine
+                0x001062c4                DWHCIDevice
+                0x00106304                _DWHCIDevice
+                0x00106314                DWHCIDeviceEnableGlobalInterrupts
+                0x00106358                DWHCIDeviceEnableCommonInterrupts
+                0x00106390                DWHCIDeviceEnableHostInterrupts
+                0x001063ec                DWHCIDeviceEnableChannelInterrupt
+                0x00106440                DWHCIDeviceDisableChannelInterrupt
+                0x00106494                DWHCIDeviceStartChannel
+                0x00106808                DWHCIDeviceStartTransaction
+                0x001068cc                DWHCIDeviceTimerHandler
+                0x00106938                DWHCIDeviceAllocateChannel
+                0x001069b4                DWHCIDeviceFreeChannel
+                0x001069dc                DWHCIDeviceTransferStageAsync
+                0x00106aec                DWHCIDeviceSubmitAsyncRequest
+                0x00106b30                DWHCIDeviceTransferStage
+                0x00106ba4                DWHCIDeviceSubmitBlockingRequest
+                0x00106d18                DWHCIDeviceControlMessage
+                0x00106db8                DWHCIDeviceGetDescriptor
+                0x00106df4                DWHCIDeviceSetAddress
+                0x00106e40                DWHCIDeviceSetConfiguration
+                0x00106e8c                DWHCIDeviceTransfer
+                0x00106ee4                DWHCIDeviceChannelInterruptHandler
+                0x001073fc                DWHCIDeviceInterruptHandler
+                0x001074ec                DWHCIDeviceWaitForBit
+                0x00107550                DWHCIDeviceEnableRootPort
+                0x0010761c                DWHCIDeviceReset
+                0x001076d0                DWHCIDeviceInitCore
+                0x0010789c                DWHCIDeviceFlushTxFIFO
+                0x00107928                DWHCIDeviceFlushRxFIFO
+                0x00107998                DWHCIDeviceInitHost
+                0x00107b94                DWHCIDeviceInitialize
+                0x00107d98                DWHCIDeviceGetPortSpeed
+                0x00107df4                DWHCIDeviceOvercurrentDetected
+                0x00107e40                DWHCIDeviceDisableRootPort
+ .text          0x00107e84       0xf8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+                0x00107e84                DWHCIRegister
+                0x00107e94                DWHCIRegister2
+                0x00107ea8                _DWHCIRegister
+                0x00107eb4                DWHCIRegisterRead
+                0x00107ed0                DWHCIRegisterWrite
+                0x00107ee0                DWHCIRegisterGet
+                0x00107ee8                DWHCIRegisterSet
+                0x00107ef8                DWHCIRegisterIsSet
+                0x00107f0c                DWHCIRegisterAnd
+                0x00107f1c                DWHCIRegisterOr
+                0x00107f2c                DWHCIRegisterClearBit
+                0x00107f40                DWHCIRegisterSetBit
+                0x00107f54                DWHCIRegisterClearAll
+                0x00107f68                DWHCIRegisterSetAll
+ .text          0x00107f7c      0x500 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+                0x00107f7c                _DWHCITransferStageData
+                0x00107fdc                DWHCITransferStageDataTransactionComplete
+                0x001080b8                DWHCITransferStageDataSetSplitComplete
+                0x001080c0                DWHCITransferStageDataSetState
+                0x001080c8                DWHCITransferStageDataGetState
+                0x001080d0                DWHCITransferStageDataSetSubState
+                0x001080d8                DWHCITransferStageDataGetSubState
+                0x001080e0                DWHCITransferStageDataBeginSplitCycle
+                0x001080e8                DWHCITransferStageDataGetChannelNumber
+                0x001080f0                DWHCITransferStageDataIsPeriodic
+                0x00108114                DWHCITransferStageData
+                0x00108320                DWHCITransferStageDataGetDeviceAddress
+                0x00108330                DWHCITransferStageDataGetEndpointType
+                0x0010835c                DWHCITransferStageDataGetEndpointNumber
+                0x0010836c                DWHCITransferStageDataGetMaxPacketSize
+                0x00108374                DWHCITransferStageDataGetSpeed
+                0x0010837c                DWHCITransferStageDataGetPID
+                0x001083ac                DWHCITransferStageDataIsDirectionIn
+                0x001083b4                DWHCITransferStageDataIsStatusStage
+                0x001083bc                DWHCITransferStageDataGetDMAAddress
+                0x001083c4                DWHCITransferStageDataGetBytesToTransfer
+                0x001083cc                DWHCITransferStageDataGetPacketsToTransfer
+                0x001083d4                DWHCITransferStageDataIsSplit
+                0x001083dc                DWHCITransferStageDataIsSplitComplete
+                0x001083e4                DWHCITransferStageDataGetHubAddress
+                0x001083f4                DWHCITransferStageDataGetHubPortAddress
+                0x00108404                DWHCITransferStageDataGetSplitPosition
+                0x0010840c                DWHCITransferStageDataGetStatusMask
+                0x00108440                DWHCITransferStageDataGetTransactionStatus
+                0x00108448                DWHCITransferStageDataIsStageComplete
+                0x00108458                DWHCITransferStageDataGetResultLen
+                0x0010846c                DWHCITransferStageDataGetURB
+                0x00108474                DWHCITransferStageDataGetFrameScheduler
+ .text          0x0010847c      0x724 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+                0x0010847c                USBDeviceConfigure
+                0x001084dc                USBDevice
+                0x00108548                USBDeviceCopy
+                0x0010863c                _USBDevice
+                0x001086d4                USBDeviceGetName
+                0x001087c4                USBDeviceGetAddress
+                0x001087cc                USBDeviceGetSpeed
+                0x001087d4                USBDeviceGetHubAddress
+                0x001087dc                USBDeviceGetHubPortNumber
+                0x001087e4                USBDeviceGetEndpoint0
+                0x001087ec                USBDeviceGetHost
+                0x001087f4                USBDeviceGetDeviceDescriptor
+                0x001087fc                USBDeviceGetConfigurationDescriptor
+                0x00108804                USBDeviceGetDescriptor
+                0x00108814                USBDeviceConfigurationError
+                0x00108824                USBDeviceInitialize
+                0x00108b98                USBDeviceSetAddress
+ .text          0x00108ba0      0x208 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+                0x00108ba0                USBEndpoint
+                0x00108bcc                USBEndpoint2
+                0x00108cb4                USBEndpointCopy
+                0x00108cec                _USBEndpoint
+                0x00108cf8                USBEndpointGetDevice
+                0x00108d00                USBEndpointGetNumber
+                0x00108d08                USBEndpointGetType
+                0x00108d10                USBEndpointIsDirectionIn
+                0x00108d18                USBEndpointSetMaxPacketSize
+                0x00108d20                USBEndpointGetMaxPacketSize
+                0x00108d28                USBEndpointGetInterval
+                0x00108d30                USBEndpointGetNextPID
+                0x00108d40                USBEndpointSkipPID
+                0x00108d9c                USBEndpointResetPID
+ .text          0x00108da8       0xb0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+                0x00108da8                USBRequest
+                0x00108dd8                _USBRequest
+                0x00108df0                USBRequestGetEndpoint
+                0x00108df8                USBRequestSetStatus
+                0x00108e00                USBRequestSetResultLen
+                0x00108e08                USBRequestGetStatus
+                0x00108e10                USBRequestGetResultLength
+                0x00108e18                USBRequestGetSetupData
+                0x00108e20                USBRequestGetBuffer
+                0x00108e28                USBRequestGetBufLen
+                0x00108e30                USBRequestSetCompletionRoutine
+                0x00108e40                USBRequestCallCompletionRoutine
+ .text          0x00108e58      0x14c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+                0x00108e58                DeviceNameService
+                0x00108e70                _DeviceNameService
+                0x00108ee4                DeviceNameServiceAddDevice
+                0x00108f38                DeviceNameServiceGetDevice
+                0x00108f94                DeviceNameServiceGet
+ .text          0x00108fa4      0x140 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+                0x00108fa4                MACAddress
+                0x00108fb0                _MACAddress
+                0x00108fbc                MACAddressIsEqual
+                0x00108fdc                MACAddressSet
+                0x00108ffc                MACAddress2
+                0x00109008                MACAddressSetBroadcast
+                0x0010902c                MACAddressGet
+                0x00109034                MACAddressCopyTo
+                0x00109050                MACAddressIsBroadcast
+                0x00109090                MACAddressGetSize
+                0x00109098                MACAddressFormat
+ .text          0x001090e4      0x65c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+                0x001090e4                SMSC951xDevice
+                0x00109118                _SMSC951xDevice
+                0x00109184                SMSC951xDeviceGetMACAddress
+                0x0010918c                SMSC951xDeviceSendFrame
+                0x001091f0                SMSC951xDeviceReceiveFrame
+                0x001092f0                SMSC951xDeviceWriteReg
+                0x00109358                SMSC951xDeviceConfigure
+                0x001096d8                SMSC951xDeviceReadReg
+ .text          0x00109740      0x2a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
+                0x00109740                uspi_memset
+                0x00109760                uspi_memcpy
+                0x00109784                uspi_memcmp
+                0x001097fc                uspi_strlen
+                0x0010982c                uspi_strcmp
+                0x001098d0                uspi_strcpy
+                0x00109904                uspi_strncpy
+                0x00109958                uspi_strcat
+                0x001099a4                uspi_char2int
+                0x001099b4                uspi_le2be16
+                0x001099c4                uspi_le2be32
+ .text          0x001099e8      0xb54 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+                0x001099e8                USBBulkOnlyMassStorageDevice
+                0x00109a24                _USBBulkOnlyMassStorageDevice
+                0x00109a78                USBBulkOnlyMassStorageDeviceSeek
+                0x00109a88                USBBulkOnlyMassStorageDeviceGetCapacity
+                0x00109a90                USBBulkOnlyMassStorageDeviceCommand
+                0x00109c98                USBBulkOnlyMassStorageDeviceConfigure
+                0x0010a170                USBBulkOnlyMassStorageDeviceTryRead
+                0x0010a268                USBBulkOnlyMassStorageDeviceTryWrite
+                0x0010a35c                USBBulkOnlyMassStorageDeviceReset
+                0x0010a494                USBBulkOnlyMassStorageDeviceRead
+                0x0010a4e8                USBBulkOnlyMassStorageDeviceWrite
+ .text          0x0010a53c      0x190 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+                0x0010a53c                _DWHCIFrameSchedulerNonPeriodic
+                0x0010a548                DWHCIFrameSchedulerNonPeriodicStartSplit
+                0x0010a554                DWHCIFrameSchedulerNonPeriodicWaitForFrame
+                0x0010a558                DWHCIFrameSchedulerNonPeriodicIsOddFrame
+                0x0010a560                DWHCIFrameSchedulerNonPeriodicCompleteSplit
+                0x0010a5b0                DWHCIFrameSchedulerNonPeriodicTransactionComplete
+                0x0010a678                DWHCIFrameSchedulerNonPeriodic
+ .text          0x0010a6cc      0x218 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+                0x0010a6cc                _DWHCIFrameSchedulerPeriodic
+                0x0010a6d8                DWHCIFrameSchedulerPeriodicStartSplit
+                0x0010a6ec                DWHCIFrameSchedulerPeriodicCompleteSplit
+                0x0010a754                DWHCIFrameSchedulerPeriodicIsOddFrame
+                0x0010a760                DWHCIFrameSchedulerPeriodicTransactionComplete
+                0x0010a81c                DWHCIFrameSchedulerPeriodicWaitForFrame
+                0x0010a888                DWHCIFrameSchedulerPeriodic
+ .text          0x0010a8e4      0x560 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+                0x0010a944                USBKeyboardDeviceConfigure
+                0x0010ad78                USBKeyboardDevice
+                0x0010add0                _CUSBKeyboardDevice
+                0x0010ae24                USBKeyboardDeviceRegisterKeyPressedHandler
+                0x0010ae2c                USBKeyboardDeviceRegisterSelectConsoleHandler
+                0x0010ae34                USBKeyboardDeviceRegisterShutdownHandler
+                0x0010ae3c                USBKeyboardDeviceRegisterKeyStatusHandlerRaw
+ .text          0x0010ae44      0x1e8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+                0x0010ae44                DWHCIRootPort
+                0x0010ae54                _DWHCIRootPort
+                0x0010ae88                DWHCIRootPortInitialize
+ .text          0x0010b02c      0x400 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                0x0010b08c                USBMouseDeviceConfigure
+                0x0010b3a0                USBMouseDevice
+                0x0010b3d8                _CUSBMouseDevice
+                0x0010b424                USBMouseDeviceRegisterStatusHandler
+ .text          0x0010b42c       0xdc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+                0x0010b42c                _DWHCIFrameSchedulerNoSplit
+                0x0010b430                DWHCIFrameSchedulerNoSplitStartSplit
+                0x0010b434                DWHCIFrameSchedulerNoSplitCompleteSplit
+                0x0010b43c                DWHCIFrameSchedulerNoSplitTransactionComplete
+                0x0010b440                DWHCIFrameSchedulerNoSplitIsOddFrame
+                0x0010b44c                DWHCIFrameSchedulerNoSplitWaitForFrame
+                0x0010b4b0                DWHCIFrameSchedulerNoSplit
+ .text          0x0010b508      0xc24 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                0x0010bab4                USBGamePadDeviceConfigure
+                0x0010bfb0                USBGamePadDevice
+                0x0010c048                _CUSBGamePadDevice
+                0x0010c0cc                USBGamePadDeviceRegisterStatusHandler
+                0x0010c0d4                USBGamePadDeviceGetReport
+ .text          0x0010c12c       0xa0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+                0x0010c12c                uspi_EnterCritical
+                0x0010c168                uspi_LeaveCritical
+                0x0010c19c                uspi_CleanAndInvalidateDataCacheRange
+ .text          0x0010c1cc      0x458 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+                0x0010c1cc                USBString
+                0x0010c1f4                USBStringCopy
+                0x0010c25c                _USBString
+                0x0010c2a0                USBStringGetFromDescriptor
+                0x0010c470                USBStringGet
+                0x0010c480                USBStringGetLanguageID
+ .text          0x0010c624      0x214 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+                0x0010c624                USBConfigurationParser
+                0x0010c750                _USBConfigurationParser
+                0x0010c75c                USBConfigurationParserIsValid
+                0x0010c764                USBConfigurationParserGetDescriptor
+                0x0010c80c                USBConfigurationParserError
+ .text          0x0010c838      0x1a8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+                0x0010c838                GetDevice
+                0x0010c980                USBDeviceFactoryGetDevice
+ .text          0x0010c9e0      0xa88 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+                0x0010c9e0                USBStandardHub
+                0x0010ca24                _USBStandardHub
+                0x0010cab4                USBStandardHubInitialize
+                0x0010cac0                USBStandardHubGetDeviceNames
+                0x0010cb80                USBStandardHubEnumeratePorts
+                0x0010d16c                USBStandardHubConfigure
+ .text          0x0010d468      0x2c8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+                0x0010d468                KeyMap
+                0x0010d494                _KeyMap
+                0x0010d498                KeyMapClearTable
+                0x0010d4cc                KeyMapSetEntry
+                0x0010d518                KeyMapTranslate
+                0x0010d640                KeyMapGetString
+                0x0010d6fc                KeyMapGetLEDStatus
+ .text          0x0010d730      0x290 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
+                0x0010d730                __muldf3
+                0x0010d730                __aeabi_dmul
+ .text          0x0010d9c0      0x198 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
+                0x0010d9c0                __aeabi_fmul
+                0x0010d9c0                __mulsf3
+ .text          0x0010db58      0x424 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
+                0x0010db58                __aeabi_drsub
+                0x0010db60                __aeabi_dsub
+                0x0010db60                __subdf3
+                0x0010db64                __aeabi_dadd
+                0x0010db64                __adddf3
+                0x0010de74                __floatunsidf
+                0x0010de74                __aeabi_ui2d
+                0x0010de98                __floatsidf
+                0x0010de98                __aeabi_i2d
+                0x0010dec0                __aeabi_f2d
+                0x0010dec0                __extendsfdf2
+                0x0010df08                __floatundidf
+                0x0010df08                __aeabi_ul2d
+                0x0010df1c                __floatdidf
+                0x0010df1c                __aeabi_l2d
+ .text          0x0010df7c      0x144 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+                0x0010df7c                __gtdf2
+                0x0010df7c                __gedf2
+                0x0010df84                __ltdf2
+                0x0010df84                __ledf2
+                0x0010df8c                __nedf2
+                0x0010df8c                __eqdf2
+                0x0010df8c                __cmpdf2
+                0x0010e014                __aeabi_cdrcmple
+                0x0010e030                __aeabi_cdcmpeq
+                0x0010e030                __aeabi_cdcmple
+                0x0010e048                __aeabi_dcmpeq
+                0x0010e060                __aeabi_dcmplt
+                0x0010e078                __aeabi_dcmple
+                0x0010e090                __aeabi_dcmpge
+                0x0010e0a8                __aeabi_dcmpgt
+ .text          0x0010e0c0       0xa0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
+                0x0010e0c0                __truncdfsf2
+                0x0010e0c0                __aeabi_d2f
+ .text          0x0010e160      0x2ac c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
+                0x0010e160                __aeabi_frsub
+                0x0010e168                __subsf3
+                0x0010e168                __aeabi_fsub
+                0x0010e16c                __aeabi_fadd
+                0x0010e16c                __addsf3
+                0x0010e328                __aeabi_ui2f
+                0x0010e328                __floatunsisf
+                0x0010e330                __aeabi_i2f
+                0x0010e330                __floatsisf
+                0x0010e350                __aeabi_ul2f
+                0x0010e350                __floatundisf
+                0x0010e360                __aeabi_l2f
+                0x0010e360                __floatdisf
+ .text          0x0010e40c      0x114 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
+                0x0010e40c                __gesf2
+                0x0010e40c                __gtsf2
+                0x0010e414                __lesf2
+                0x0010e414                __ltsf2
+                0x0010e41c                __nesf2
+                0x0010e41c                __eqsf2
+                0x0010e41c                __cmpsf2
+                0x0010e480                __aeabi_cfrcmple
+                0x0010e490                __aeabi_cfcmpeq
+                0x0010e490                __aeabi_cfcmple
+                0x0010e4a8                __aeabi_fcmpeq
+                0x0010e4c0                __aeabi_fcmplt
+                0x0010e4d8                __aeabi_fcmple
+                0x0010e4f0                __aeabi_fcmpge
+                0x0010e508                __aeabi_fcmpgt
+ .text          0x0010e520        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.selfrel_offset31
-                0x0010e470       0x18 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e520       0x18 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.search_EIT_table
-                0x0010e488       0x90 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e538       0x90 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.__gnu_unwind_get_pr_addr
-                0x0010e518       0x40 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e5c8       0x40 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.get_eit_entry
-                0x0010e558      0x124 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e608      0x124 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.restore_non_core_regs
-                0x0010e67c       0x90 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e72c       0x90 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text._Unwind_decode_typeinfo_ptr.isra.0
-                0x0010e70c       0x14 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e7bc       0x14 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.__gnu_unwind_24bit.isra.0
-                0x0010e720        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e7d0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text._Unwind_DebugHook
-                0x0010e728        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e7d8        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.unwind_phase2
-                0x0010e72c       0x68 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e7dc       0x68 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.unwind_phase2_forced
-                0x0010e794      0x144 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e844      0x144 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text._Unwind_GetCFA
-                0x0010e8d8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010e8d8                _Unwind_GetCFA
+                0x0010e988        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e988                _Unwind_GetCFA
  .text.__gnu_Unwind_RaiseException
-                0x0010e8e0       0xac c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010e8e0                __gnu_Unwind_RaiseException
+                0x0010e990       0xac c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010e990                __gnu_Unwind_RaiseException
  .text.__gnu_Unwind_ForcedUnwind
-                0x0010e98c       0x24 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010e98c                __gnu_Unwind_ForcedUnwind
+                0x0010ea3c       0x24 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ea3c                __gnu_Unwind_ForcedUnwind
  .text.__gnu_Unwind_Resume
-                0x0010e9b0       0x78 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010e9b0                __gnu_Unwind_Resume
+                0x0010ea60       0x78 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ea60                __gnu_Unwind_Resume
  .text.__gnu_Unwind_Resume_or_Rethrow
-                0x0010ea28       0x1c c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010ea28                __gnu_Unwind_Resume_or_Rethrow
+                0x0010ead8       0x1c c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ead8                __gnu_Unwind_Resume_or_Rethrow
  .text._Unwind_Complete
-                0x0010ea44        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010ea44                _Unwind_Complete
+                0x0010eaf4        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010eaf4                _Unwind_Complete
  .text._Unwind_DeleteException
-                0x0010ea48       0x18 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010ea48                _Unwind_DeleteException
+                0x0010eaf8       0x18 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010eaf8                _Unwind_DeleteException
  .text._Unwind_VRS_Get
-                0x0010ea60       0x64 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010ea60                _Unwind_VRS_Get
+                0x0010eb10       0x64 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010eb10                _Unwind_VRS_Get
  .text._Unwind_GetGR
-                0x0010eac4       0x30 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010eb74       0x30 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text._Unwind_VRS_Set
-                0x0010eaf4       0x64 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010eaf4                _Unwind_VRS_Set
+                0x0010eba4       0x64 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010eba4                _Unwind_VRS_Set
  .text._Unwind_SetGR
-                0x0010eb58       0x34 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ec08       0x34 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.__gnu_Unwind_Backtrace
-                0x0010eb8c       0xcc c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010eb8c                __gnu_Unwind_Backtrace
+                0x0010ec3c       0xcc c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ec3c                __gnu_Unwind_Backtrace
  .text.__gnu_unwind_pr_common
-                0x0010ec58      0x434 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010ed08      0x434 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
  .text.__aeabi_unwind_cpp_pr0
-                0x0010f08c        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010f08c                __aeabi_unwind_cpp_pr0
+                0x0010f13c        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010f13c                __aeabi_unwind_cpp_pr0
  .text.__aeabi_unwind_cpp_pr1
-                0x0010f094        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010f094                __aeabi_unwind_cpp_pr1
+                0x0010f144        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010f144                __aeabi_unwind_cpp_pr1
  .text.__aeabi_unwind_cpp_pr2
-                0x0010f09c        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010f09c                __aeabi_unwind_cpp_pr2
+                0x0010f14c        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010f14c                __aeabi_unwind_cpp_pr2
  .text._Unwind_VRS_Pop
-                0x0010f0a4      0x3ec c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
-                0x0010f0a4                _Unwind_VRS_Pop
- .text          0x0010f490      0x1b0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
-                0x0010f490                __restore_core_regs
-                0x0010f490                restore_core_regs
-                0x0010f4ac                __gnu_Unwind_Restore_VFP
-                0x0010f4b4                __gnu_Unwind_Save_VFP
-                0x0010f4bc                __gnu_Unwind_Restore_VFP_D
-                0x0010f4c4                __gnu_Unwind_Save_VFP_D
-                0x0010f4cc                __gnu_Unwind_Restore_VFP_D_16_to_31
-                0x0010f4d4                __gnu_Unwind_Save_VFP_D_16_to_31
-                0x0010f4dc                __gnu_Unwind_Restore_WMMXD
-                0x0010f520                __gnu_Unwind_Save_WMMXD
-                0x0010f564                __gnu_Unwind_Restore_WMMXC
-                0x0010f578                __gnu_Unwind_Save_WMMXC
-                0x0010f58c                ___Unwind_RaiseException
-                0x0010f58c                _Unwind_RaiseException
-                0x0010f5b0                _Unwind_Resume
-                0x0010f5b0                ___Unwind_Resume
-                0x0010f5d4                _Unwind_Resume_or_Rethrow
-                0x0010f5d4                ___Unwind_Resume_or_Rethrow
-                0x0010f5f8                _Unwind_ForcedUnwind
-                0x0010f5f8                ___Unwind_ForcedUnwind
-                0x0010f61c                ___Unwind_Backtrace
-                0x0010f61c                _Unwind_Backtrace
- .text          0x0010f640        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010f154      0x3ec c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x0010f154                _Unwind_VRS_Pop
+ .text          0x0010f540      0x1b0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+                0x0010f540                __restore_core_regs
+                0x0010f540                restore_core_regs
+                0x0010f55c                __gnu_Unwind_Restore_VFP
+                0x0010f564                __gnu_Unwind_Save_VFP
+                0x0010f56c                __gnu_Unwind_Restore_VFP_D
+                0x0010f574                __gnu_Unwind_Save_VFP_D
+                0x0010f57c                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x0010f584                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x0010f58c                __gnu_Unwind_Restore_WMMXD
+                0x0010f5d0                __gnu_Unwind_Save_WMMXD
+                0x0010f614                __gnu_Unwind_Restore_WMMXC
+                0x0010f628                __gnu_Unwind_Save_WMMXC
+                0x0010f63c                ___Unwind_RaiseException
+                0x0010f63c                _Unwind_RaiseException
+                0x0010f660                _Unwind_Resume
+                0x0010f660                ___Unwind_Resume
+                0x0010f684                _Unwind_Resume_or_Rethrow
+                0x0010f684                ___Unwind_Resume_or_Rethrow
+                0x0010f6a8                _Unwind_ForcedUnwind
+                0x0010f6a8                ___Unwind_ForcedUnwind
+                0x0010f6cc                ___Unwind_Backtrace
+                0x0010f6cc                _Unwind_Backtrace
+ .text          0x0010f6f0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
  .text.next_unwind_byte
-                0x0010f640       0x60 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010f6f0       0x60 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
  .text._Unwind_GetGR.constprop.0
-                0x0010f6a0       0x30 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010f750       0x30 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
  .text.unwind_UCB_from_context
-                0x0010f6d0        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010f780        0x4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
  .text.__gnu_unwind_execute
-                0x0010f6d4      0x3d4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010f6d4                __gnu_unwind_execute
+                0x0010f784      0x3d4 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010f784                __gnu_unwind_execute
  .text.__gnu_unwind_frame
-                0x0010faa8       0x48 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010faa8                __gnu_unwind_frame
+                0x0010fb58       0x48 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fb58                __gnu_unwind_frame
  .text._Unwind_GetRegionStart
-                0x0010faf0       0x14 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010faf0                _Unwind_GetRegionStart
+                0x0010fba0       0x14 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fba0                _Unwind_GetRegionStart
  .text._Unwind_GetLanguageSpecificData
-                0x0010fb04       0x20 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010fb04                _Unwind_GetLanguageSpecificData
+                0x0010fbb4       0x20 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fbb4                _Unwind_GetLanguageSpecificData
  .text.unlikely._Unwind_GetDataRelBase
-                0x0010fb24        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010fb24                _Unwind_GetDataRelBase
+                0x0010fbd4        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fbd4                _Unwind_GetDataRelBase
  .text.unlikely._Unwind_GetTextRelBase
-                0x0010fb2c        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x0010fb2c                _Unwind_GetTextRelBase
-                0x0010fb34                _etext = .
+                0x0010fbdc        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0010fbdc                _Unwind_GetTextRelBase
+                0x0010fbe4                _etext = .
 
-.glue_7         0x0010fb34        0x0
- .glue_7        0x0010fb34        0x0 linker stubs
+.glue_7         0x0010fbe4        0x0
+ .glue_7        0x0010fbe4        0x0 linker stubs
 
-.glue_7t        0x0010fb34        0x0
- .glue_7t       0x0010fb34        0x0 linker stubs
+.glue_7t        0x0010fbe4        0x0
+ .glue_7t       0x0010fbe4        0x0 linker stubs
 
-.vfp11_veneer   0x0010fb34        0x0
- .vfp11_veneer  0x0010fb34        0x0 linker stubs
+.vfp11_veneer   0x0010fbe4        0x0
+ .vfp11_veneer  0x0010fbe4        0x0 linker stubs
 
-.v4_bx          0x0010fb34        0x0
- .v4_bx         0x0010fb34        0x0 linker stubs
+.v4_bx          0x0010fbe4        0x0
+ .v4_bx         0x0010fbe4        0x0 linker stubs
 
-.iplt           0x0010fb34        0x0
- .iplt          0x0010fb34        0x0 ./src/main.o
+.iplt           0x0010fbe4        0x0
+ .iplt          0x0010fbe4        0x0 ./src/main.o
 
-.rodata         0x0010fb34     0x11da
+.rodata         0x0010fbe4     0x11da
  *(.rodata*)
  .rodata.str1.4
-                0x0010fb34       0x3b ./src/main.o
- *fill*         0x0010fb6f        0x1 
- .rodata        0x0010fb70       0x41 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+                0x0010fbe4       0x3b ./src/main.o
+ *fill*         0x0010fc1f        0x1 
+ .rodata        0x0010fc20       0x41 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
  .rodata.str1.4
-                0x0010fbb1       0x3b C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
+                0x0010fc61       0x3b C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
                                   0x1 (size before relaxing)
- *fill*         0x0010fbb1        0x3 
- .rodata        0x0010fbb4       0x18 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ *fill*         0x0010fc61        0x3 
+ .rodata        0x0010fc64       0x18 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
  .rodata.str1.4
-                0x0010fbcc       0x97 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
- *fill*         0x0010fc63        0x1 
- .rodata        0x0010fc64      0x524 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+                0x0010fc7c       0x97 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ *fill*         0x0010fd13        0x1 
+ .rodata        0x0010fd14      0x524 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
  .rodata.str1.4
-                0x00110188       0x1a C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
- *fill*         0x001101a2        0x2 
- .rodata.str1.4
-                0x001101a4       0x46 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
- *fill*         0x001101ea        0x2 
- .rodata        0x001101ec        0x5 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
- *fill*         0x001101f1        0x3 
- .rodata.str1.4
-                0x001101f4       0x57 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
- *fill*         0x0011024b        0x1 
- .rodata        0x0011024c        0x6 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+                0x00110238       0x1a C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
  *fill*         0x00110252        0x2 
  .rodata.str1.4
-                0x00110254       0xcc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
- .rodata        0x00110320        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
- *fill*         0x00110327        0x1 
+                0x00110254       0x46 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ *fill*         0x0011029a        0x2 
+ .rodata        0x0011029c        0x5 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ *fill*         0x001102a1        0x3 
  .rodata.str1.4
-                0x00110328      0x150 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+                0x001102a4       0x57 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ *fill*         0x001102fb        0x1 
+ .rodata        0x001102fc        0x6 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ *fill*         0x00110302        0x2 
  .rodata.str1.4
-                0x00110478       0x1e C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
- *fill*         0x00110496        0x2 
- .rodata        0x00110498        0x9 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
- *fill*         0x001104a1        0x3 
+                0x00110304       0xcc C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .rodata        0x001103d0        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ *fill*         0x001103d7        0x1 
  .rodata.str1.4
-                0x001104a4       0x7e C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
- *fill*         0x00110522        0x2 
- .rodata        0x00110524        0x5 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
- *fill*         0x00110529        0x3 
+                0x001103d8      0x150 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
  .rodata.str1.4
-                0x0011052c      0x1c4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+                0x00110528       0x1e C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ *fill*         0x00110546        0x2 
+ .rodata        0x00110548        0x9 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ *fill*         0x00110551        0x3 
+ .rodata.str1.4
+                0x00110554       0x7e C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ *fill*         0x001105d2        0x2 
+ .rodata        0x001105d4        0x5 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ *fill*         0x001105d9        0x3 
+ .rodata.str1.4
+                0x001105dc      0x1c4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
                                 0x1e8 (size before relaxing)
  .rodata.str1.4
-                0x001106f0       0x1c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+                0x001107a0       0x1c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
  .rodata.str1.4
-                0x0011070c       0x1c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
- .rodata        0x0011070c        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
- *fill*         0x00110713        0x1 
- .rodata.str1.4
-                0x00110714       0x3b C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
-                                 0x57 (size before relaxing)
- *fill*         0x0011074f        0x1 
- .rodata        0x00110750        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
- *fill*         0x00110757        0x1 
- .rodata.str1.4
-                0x00110758       0x63 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
- *fill*         0x001107bb        0x1 
- .rodata        0x001107bc        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                0x001107bc       0x1c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .rodata        0x001107bc        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
  *fill*         0x001107c3        0x1 
  .rodata.str1.4
-                0x001107c4        0x9 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+                0x001107c4       0x3b C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+                                 0x57 (size before relaxing)
+ *fill*         0x001107ff        0x1 
+ .rodata        0x00110800        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ *fill*         0x00110807        0x1 
+ .rodata.str1.4
+                0x00110808       0x63 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ *fill*         0x0011086b        0x1 
+ .rodata        0x0011086c        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ *fill*         0x00110873        0x1 
+ .rodata.str1.4
+                0x00110874        0x9 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
                                  0x59 (size before relaxing)
- *fill*         0x001107cd        0x3 
- .rodata        0x001107d0        0xd C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
- *fill*         0x001107dd        0x3 
+ *fill*         0x0011087d        0x3 
+ .rodata        0x00110880        0xd C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ *fill*         0x0011088d        0x3 
  .rodata.str1.4
-                0x001107e0       0x21 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                0x00110890       0x21 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
                                  0x5f (size before relaxing)
- *fill*         0x00110801        0x3 
+ *fill*         0x001108b1        0x3 
  .rodata.str1.4
-                0x00110804       0x2f C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
- *fill*         0x00110833        0x1 
+                0x001108b4       0x2f C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ *fill*         0x001108e3        0x1 
  .rodata.str1.4
-                0x00110834       0x45 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
- *fill*         0x00110879        0x3 
- .rodata        0x0011087c        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
- *fill*         0x00110883        0x1 
+                0x001108e4       0x45 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ *fill*         0x00110929        0x3 
+ .rodata        0x0011092c        0x7 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ *fill*         0x00110933        0x1 
  .rodata.str1.4
-                0x00110884      0x170 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+                0x00110934      0x170 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
                                 0x1ac (size before relaxing)
- .rodata        0x001109f4      0x24c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .rodata        0x00110aa4      0x24c C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
  .rodata.str1.4
-                0x00110c40       0xce C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+                0x00110cf0       0xce C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
                                  0xde (size before relaxing)
 
-.ARM.extab      0x00110d0e        0x0
- .ARM.extab     0x00110d0e        0x0 ./src/main.o
- .ARM.extab     0x00110d0e        0x0 ./src/peripherals.o
- .ARM.extab     0x00110d0e        0x0 ./src/utilities.o
+.ARM.extab      0x00110dbe        0x0
+ .ARM.extab     0x00110dbe        0x0 ./src/main.o
+ .ARM.extab     0x00110dbe        0x0 ./src/peripherals.o
+ .ARM.extab     0x00110dbe        0x0 ./src/utilities.o
 
-.ARM.exidx      0x00110d10       0x30
- .ARM.exidx     0x00110d10       0x30 ./src/main.o
+.ARM.exidx      0x00110dc0       0x38
+ .ARM.exidx     0x00110dc0       0x38 ./src/main.o
                                  0x50 (size before relaxing)
- .ARM.exidx     0x00110d40        0x0 ./src/peripherals.o
+ .ARM.exidx     0x00110df8        0x0 ./src/peripherals.o
                                  0x30 (size before relaxing)
- .ARM.exidx     0x00110d40        0x0 ./src/utilities.o
+ .ARM.exidx     0x00110df8        0x0 ./src/utilities.o
                                  0x18 (size before relaxing)
 
 .ARM.extab.text.startup
-                0x00110d40        0x0
+                0x00110df8        0x0
  .ARM.extab.text.startup
-                0x00110d40        0x0 ./src/main.o
+                0x00110df8        0x0 ./src/main.o
 
 .ARM.exidx.text.startup
-                0x00110d40       0x10
+                0x00110df8       0x10
  .ARM.exidx.text.startup
-                0x00110d40       0x10 ./src/main.o
+                0x00110df8       0x10 ./src/main.o
 
 .ARM.extab.begin
-                0x00110d50        0x0
+                0x00110e08        0x0
  .ARM.extab.begin
-                0x00110d50        0x0 ./src/utilities.o
+                0x00110e08        0x0 ./src/utilities.o
 
 .ARM.exidx.begin
-                0x00110d50        0x8
+                0x00110e08        0x8
  .ARM.exidx.begin
-                0x00110d50        0x8 ./src/utilities.o
+                0x00110e08        0x8 ./src/utilities.o
 
 .ARM.extab.text.unlikely
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.extab.text.unlikely
-                0x00110d58        0x0 ./src/utilities.o
+                0x00110e10        0x0 ./src/utilities.o
 
 .ARM.exidx.text.unlikely
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.exidx.text.unlikely
-                0x00110d58        0x0 ./src/utilities.o
+                0x00110e10        0x0 ./src/utilities.o
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.selfrel_offset31
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.extab.text.selfrel_offset31
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.selfrel_offset31
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.exidx.text.selfrel_offset31
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.search_EIT_table
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.extab.text.search_EIT_table
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.search_EIT_table
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.exidx.text.search_EIT_table
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.__gnu_unwind_get_pr_addr
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.extab.text.__gnu_unwind_get_pr_addr
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_unwind_get_pr_addr
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.exidx.text.__gnu_unwind_get_pr_addr
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.get_eit_entry
-                0x00110d58        0x0
+                0x00110e10        0x0
  .ARM.extab.text.get_eit_entry
-                0x00110d58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.get_eit_entry
-                0x00110d58        0x8
+                0x00110e10        0x8
  .ARM.exidx.text.get_eit_entry
-                0x00110d58        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e10        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.restore_non_core_regs
-                0x00110d60        0x0
+                0x00110e18        0x0
  .ARM.extab.text.restore_non_core_regs
-                0x00110d60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e18        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.restore_non_core_regs
-                0x00110d60        0x8
+                0x00110e18        0x8
  .ARM.exidx.text.restore_non_core_regs
-                0x00110d60        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e18        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text._Unwind_decode_typeinfo_ptr.isra.0
-                0x00110d68        0x0
+                0x00110e20        0x0
  .ARM.extab.text._Unwind_decode_typeinfo_ptr.isra.0
-                0x00110d68        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e20        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_decode_typeinfo_ptr.isra.0
-                0x00110d68        0x8
+                0x00110e20        0x8
  .ARM.exidx.text._Unwind_decode_typeinfo_ptr.isra.0
-                0x00110d68        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e20        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_unwind_24bit.isra.0
-                0x00110d70        0x0
+                0x00110e28        0x0
  .ARM.extab.text.__gnu_unwind_24bit.isra.0
-                0x00110d70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_unwind_24bit.isra.0
-                0x00110d70        0x0
+                0x00110e28        0x0
  .ARM.exidx.text.__gnu_unwind_24bit.isra.0
-                0x00110d70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_DebugHook
-                0x00110d70        0x0
+                0x00110e28        0x0
  .ARM.extab.text._Unwind_DebugHook
-                0x00110d70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_DebugHook
-                0x00110d70        0x0
+                0x00110e28        0x0
  .ARM.exidx.text._Unwind_DebugHook
-                0x00110d70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.unwind_phase2
-                0x00110d70        0x0
+                0x00110e28        0x0
  .ARM.extab.text.unwind_phase2
-                0x00110d70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.unwind_phase2
-                0x00110d70        0x8
+                0x00110e28        0x8
  .ARM.exidx.text.unwind_phase2
-                0x00110d70        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e28        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.unwind_phase2_forced
-                0x00110d78        0x0
+                0x00110e30        0x0
  .ARM.extab.text.unwind_phase2_forced
-                0x00110d78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e30        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.unwind_phase2_forced
-                0x00110d78        0x8
+                0x00110e30        0x8
  .ARM.exidx.text.unwind_phase2_forced
-                0x00110d78        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e30        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text._Unwind_GetCFA
-                0x00110d80        0x0
+                0x00110e38        0x0
  .ARM.extab.text._Unwind_GetCFA
-                0x00110d80        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e38        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_GetCFA
-                0x00110d80        0x8
+                0x00110e38        0x8
  .ARM.exidx.text._Unwind_GetCFA
-                0x00110d80        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e38        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_Unwind_RaiseException
-                0x00110d88        0x0
+                0x00110e40        0x0
  .ARM.extab.text.__gnu_Unwind_RaiseException
-                0x00110d88        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e40        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_Unwind_RaiseException
-                0x00110d88        0x8
+                0x00110e40        0x8
  .ARM.exidx.text.__gnu_Unwind_RaiseException
-                0x00110d88        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e40        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_Unwind_ForcedUnwind
-                0x00110d90        0x0
+                0x00110e48        0x0
  .ARM.extab.text.__gnu_Unwind_ForcedUnwind
-                0x00110d90        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e48        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_Unwind_ForcedUnwind
-                0x00110d90        0x8
+                0x00110e48        0x8
  .ARM.exidx.text.__gnu_Unwind_ForcedUnwind
-                0x00110d90        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e48        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_Unwind_Resume
-                0x00110d98        0x0
+                0x00110e50        0x0
  .ARM.extab.text.__gnu_Unwind_Resume
-                0x00110d98        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e50        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_Unwind_Resume
-                0x00110d98        0x8
+                0x00110e50        0x8
  .ARM.exidx.text.__gnu_Unwind_Resume
-                0x00110d98        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e50        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_Unwind_Resume_or_Rethrow
-                0x00110da0        0x0
+                0x00110e58        0x0
  .ARM.extab.text.__gnu_Unwind_Resume_or_Rethrow
-                0x00110da0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e58        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
-                0x00110da0        0x8
+                0x00110e58        0x8
  .ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
-                0x00110da0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e58        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text._Unwind_Complete
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_Complete
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_Complete
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_Complete
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_DeleteException
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_DeleteException
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_DeleteException
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_DeleteException
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_VRS_Get
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_VRS_Get
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_VRS_Get
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_VRS_Get
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_GetGR
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_GetGR
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_GetGR
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_GetGR
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_VRS_Set
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_VRS_Set
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_VRS_Set
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_VRS_Set
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_SetGR
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text._Unwind_SetGR
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_SetGR
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.exidx.text._Unwind_SetGR
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.__gnu_Unwind_Backtrace
-                0x00110da8        0x0
+                0x00110e60        0x0
  .ARM.extab.text.__gnu_Unwind_Backtrace
-                0x00110da8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_Unwind_Backtrace
-                0x00110da8        0x8
+                0x00110e60        0x8
  .ARM.exidx.text.__gnu_Unwind_Backtrace
-                0x00110da8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e60        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__gnu_unwind_pr_common
-                0x00110db0        0x0
+                0x00110e68        0x0
  .ARM.extab.text.__gnu_unwind_pr_common
-                0x00110db0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e68        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__gnu_unwind_pr_common
-                0x00110db0        0x8
+                0x00110e68        0x8
  .ARM.exidx.text.__gnu_unwind_pr_common
-                0x00110db0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e68        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__aeabi_unwind_cpp_pr0
-                0x00110db8        0x0
+                0x00110e70        0x0
  .ARM.extab.text.__aeabi_unwind_cpp_pr0
-                0x00110db8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e70        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__aeabi_unwind_cpp_pr0
-                0x00110db8        0x8
+                0x00110e70        0x8
  .ARM.exidx.text.__aeabi_unwind_cpp_pr0
-                0x00110db8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e70        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.extab.text.__aeabi_unwind_cpp_pr1
-                0x00110dc0        0x0
+                0x00110e78        0x0
  .ARM.extab.text.__aeabi_unwind_cpp_pr1
-                0x00110dc0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__aeabi_unwind_cpp_pr1
-                0x00110dc0        0x0
+                0x00110e78        0x0
  .ARM.exidx.text.__aeabi_unwind_cpp_pr1
-                0x00110dc0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.__aeabi_unwind_cpp_pr2
-                0x00110dc0        0x0
+                0x00110e78        0x0
  .ARM.extab.text.__aeabi_unwind_cpp_pr2
-                0x00110dc0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text.__aeabi_unwind_cpp_pr2
-                0x00110dc0        0x0
+                0x00110e78        0x0
  .ARM.exidx.text.__aeabi_unwind_cpp_pr2
-                0x00110dc0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_VRS_Pop
-                0x00110dc0        0x0
+                0x00110e78        0x0
  .ARM.extab.text._Unwind_VRS_Pop
-                0x00110dc0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
 
 .ARM.exidx.text._Unwind_VRS_Pop
-                0x00110dc0       0x10
+                0x00110e78       0x10
  .ARM.exidx.text._Unwind_VRS_Pop
-                0x00110dc0       0x10 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+                0x00110e78       0x10 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.next_unwind_byte
-                0x00110dd0        0x0
+                0x00110e88        0x0
  .ARM.extab.text.next_unwind_byte
-                0x00110dd0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e88        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.next_unwind_byte
-                0x00110dd0        0x0
+                0x00110e88        0x0
  .ARM.exidx.text.next_unwind_byte
-                0x00110dd0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e88        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text._Unwind_GetGR.constprop.0
-                0x00110dd0        0x0
+                0x00110e88        0x0
  .ARM.extab.text._Unwind_GetGR.constprop.0
-                0x00110dd0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e88        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text._Unwind_GetGR.constprop.0
-                0x00110dd0        0x8
+                0x00110e88        0x8
  .ARM.exidx.text._Unwind_GetGR.constprop.0
-                0x00110dd0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e88        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text.unwind_UCB_from_context
-                0x00110dd8        0x0
+                0x00110e90        0x0
  .ARM.extab.text.unwind_UCB_from_context
-                0x00110dd8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e90        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.unwind_UCB_from_context
-                0x00110dd8        0x8
+                0x00110e90        0x8
  .ARM.exidx.text.unwind_UCB_from_context
-                0x00110dd8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e90        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text.__gnu_unwind_execute
-                0x00110de0        0x0
+                0x00110e98        0x0
  .ARM.extab.text.__gnu_unwind_execute
-                0x00110de0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e98        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.__gnu_unwind_execute
-                0x00110de0        0x8
+                0x00110e98        0x8
  .ARM.exidx.text.__gnu_unwind_execute
-                0x00110de0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110e98        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text.__gnu_unwind_frame
-                0x00110de8        0x0
+                0x00110ea0        0x0
  .ARM.extab.text.__gnu_unwind_frame
-                0x00110de8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110ea0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.__gnu_unwind_frame
-                0x00110de8        0x8
+                0x00110ea0        0x8
  .ARM.exidx.text.__gnu_unwind_frame
-                0x00110de8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110ea0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text._Unwind_GetRegionStart
-                0x00110df0        0x0
+                0x00110ea8        0x0
  .ARM.extab.text._Unwind_GetRegionStart
-                0x00110df0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110ea8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text._Unwind_GetRegionStart
-                0x00110df0        0x8
+                0x00110ea8        0x8
  .ARM.exidx.text._Unwind_GetRegionStart
-                0x00110df0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110ea8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text._Unwind_GetLanguageSpecificData
-                0x00110df8        0x0
+                0x00110eb0        0x0
  .ARM.extab.text._Unwind_GetLanguageSpecificData
-                0x00110df8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text._Unwind_GetLanguageSpecificData
-                0x00110df8        0x0
+                0x00110eb0        0x0
  .ARM.exidx.text._Unwind_GetLanguageSpecificData
-                0x00110df8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
                                   0x8 (size before relaxing)
 
 .ARM.extab.text.unlikely._Unwind_GetDataRelBase
-                0x00110df8        0x0
+                0x00110eb0        0x0
  .ARM.extab.text.unlikely._Unwind_GetDataRelBase
-                0x00110df8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb0        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.unlikely._Unwind_GetDataRelBase
-                0x00110df8        0x8
+                0x00110eb0        0x8
  .ARM.exidx.text.unlikely._Unwind_GetDataRelBase
-                0x00110df8        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb0        0x8 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.extab.text.unlikely._Unwind_GetTextRelBase
-                0x00110e00        0x0
+                0x00110eb8        0x0
  .ARM.extab.text.unlikely._Unwind_GetTextRelBase
-                0x00110e00        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
 
 .ARM.exidx.text.unlikely._Unwind_GetTextRelBase
-                0x00110e00        0x0
+                0x00110eb8        0x0
  .ARM.exidx.text.unlikely._Unwind_GetTextRelBase
-                0x00110e00        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x00110eb8        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
                                   0x8 (size before relaxing)
 
-.rel.dyn        0x00110e00        0x0
- .rel.iplt      0x00110e00        0x0 ./src/main.o
+.rel.dyn        0x00110eb8        0x0
+ .rel.iplt      0x00110eb8        0x0 ./src/main.o
 
-.data           0x00110e00    0x70880
+.data           0x00110eb8   0x1127c4
  *(.data*)
- .data          0x00110e00        0x0 ./src/cos.o
- .data          0x00110e00    0x70800 ./src/main.o
-                0x00110e00                zaklo
-                0x00110e04                wart_zad
-                0x00110e08                wyj_ukl
-                0x00110e0c                TimerIsrPeriod
-                0x00110e10                SCREENBUF
-                0x00110e14                Bufor5
-                0x00110e24                Bufor4
-                0x00110e34                Bufor2
-                0x00110e40                Bufor1
-                0x00110e4c                grzejnik_old_color
- .data          0x00181600        0x0 ./src/peripherals.o
- .data          0x00181600        0x4 ./src/utilities.o
-                0x00181600                randi
- .data          0x00181604        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
- .data          0x00181604        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
- .data          0x00181604       0x38 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
- .data          0x0018163c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
- .data          0x0018163c        0x1 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
- .data          0x0018163d        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
- *fill*         0x0018163d        0x3 
- .data          0x00181640        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
- .data          0x00181644        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
- .data          0x00181644        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
- .data          0x00181644        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
- .data          0x00181648        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
- .data          0x00181648        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
- .data          0x0018164c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
- .data          0x0018164c       0x34 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
- .data          0x00181680        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
- .data          0x00181680        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
-                0x00181680                __bss_start = .
+ .data          0x00110eb8        0x0 ./src/cos.o
+ .data          0x00110eb8   0x112744 ./src/main.o
+                0x00110eb8                zaklo
+                0x00110ebc                wart_zad
+                0x00110ec0                wyj_ukl
+                0x00110ec4                TimerIsrPeriod
+                0x00110ec8                SCREENBUF
+                0x00110ecc                Bufor5
+                0x00110edc                Bufor4
+                0x00110eec                Bufor2
+                0x00110ef8                Bufor1
+                0x00110f04                wiatrak1
+                0x00133a34                wiatrak2
+                0x00156564                wiatrak3
+                0x00179094                termometr_color
+                0x0019bfb8                grzejnik_color
+                0x001b2e48                grzejnik_old_color
+ .data          0x002235fc        0x0 ./src/peripherals.o
+ .data          0x002235fc        0x4 ./src/utilities.o
+                0x002235fc                randi
+ .data          0x00223600        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .data          0x00223600        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+ .data          0x00223600       0x38 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .data          0x00223638        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .data          0x00223638        0x1 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .data          0x00223639        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
+ *fill*         0x00223639        0x3 
+ .data          0x0022363c        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .data          0x00223640        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .data          0x00223640        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .data          0x00223640        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .data          0x00223644        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .data          0x00223644        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .data          0x00223648        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .data          0x00223648       0x34 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .data          0x0022367c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .data          0x0022367c        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+                0x0022367c                __bss_start = .
 
-.init_array     0x00181680        0x4
- .init_array    0x00181680        0x4 ./src/main.o
+.init_array     0x0022367c        0x4
+ .init_array    0x0022367c        0x4 ./src/main.o
 
-.igot.plt       0x00181684        0x0
- .igot.plt      0x00181684        0x0 ./src/main.o
+.igot.plt       0x00223680        0x0
+ .igot.plt      0x00223680        0x0 ./src/main.o
 
-.bss            0x00181684    0x66da4
+.bss            0x00223680    0x66da4
  *(.bss*)
- .bss           0x00181684        0x0 ./src/cos.o
- .bss           0x00181684    0x6693c ./src/main.o
-                0x00181684                presc
-                0x00181688                preScale
-                0x0018168c                Tim
-                0x00181690                Key
-                0x00181694                uchyb
-                0x00181698                Regul
-                0x001816bc                syg_ster
-                0x001816c0                Model
-                0x001816d0                Tim1
-                0x001816d4                Tim2
-                0x001816d8                Tim3
-                0x001816dc                Jx
-                0x001816e0                Jy
-                0x001816e4                Jz
-                0x001816e8                JRz
-                0x001816ec                Jyt
-                0x001816f0                Jxt
-                0x001816f4                stage
-                0x001816f8                SCREEN
-                0x001816fc                frame_count
-                0x00181700                timeElapse
-                0x00181704                Bufor6
-                0x0018170c                Bufor3
-                0x00181711                EnableRefresh
-                0x00181712                st_zaklo
-                0x00181714                Skaler
-                0x00181718                predkosc
-                0x0018171c                mode
-                0x00181720                yt
-                0x00190180                xt
-                0x0019ebe0                y
-                0x001ad640                x
-                0x001bc0a0                s
-                0x001cab00                dy
-                0x001d9560                dx
- .bss           0x001e7fc0       0x28 ./src/peripherals.o
-                0x001e7fc0                gRawKeys
-                0x001e7fc8                ra
-                0x001e7fcc                gucModifiers
-                0x001e7fd0                JoYAct
- .bss           0x001e7fe8        0x0 ./src/utilities.o
- .bss           0x001e7fe8        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
- .bss           0x001e7fe8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
- .bss           0x001e7fe8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
- .bss           0x001e7fe8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
- .bss           0x001e7fe8      0x3f4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
- .bss           0x001e83dc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
- .bss           0x001e83dc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
- .bss           0x001e83dc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
- .bss           0x001e83dc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
- .bss           0x001e83dc        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
- .bss           0x001e83e0        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
- .bss           0x001e83e0       0x14 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
- .bss           0x001e83f4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
- .bss           0x001e83f4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
- .bss           0x001e83f4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
- .bss           0x001e83f4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
- .bss           0x001e83f4        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
- .bss           0x001e83f8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
- .bss           0x001e83f8        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
- .bss           0x001e83fc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
- .bss           0x001e83fc        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
- .bss           0x001e8404        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
- .bss           0x001e8404        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
-                0x001e8408                counter
- .bss           0x001e840c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
- .bss           0x001e840c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
- .bss           0x001e840c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
- .bss           0x001e840c        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
- .bss           0x001e8410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
- .bss           0x001e8410        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
- .bss           0x001e8414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
- .bss           0x001e8414        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
- .bss           0x001e8418        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
- .bss           0x001e8418        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
-                0x001e8418                padDevBusy
- .bss           0x001e841c        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
- .bss           0x001e8424        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
- .bss           0x001e8424        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
- .bss           0x001e8424        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
- .bss           0x001e8424        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
- .bss           0x001e8424        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
- .bss           0x001e8424        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
- COMMON         0x001e8424        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
-                0x001e8424                gpio
-                0x001e8428                __exidx_start = .
+ .bss           0x00223680        0x0 ./src/cos.o
+ .bss           0x00223680    0x6693c ./src/main.o
+                0x00223680                presc
+                0x00223684                preScale
+                0x00223688                Tim
+                0x0022368c                Key
+                0x00223690                uchyb
+                0x00223694                Regul
+                0x002236b8                syg_ster
+                0x002236bc                Model
+                0x002236cc                Tim1
+                0x002236d0                Tim2
+                0x002236d4                Tim3
+                0x002236d8                Jx
+                0x002236dc                Jy
+                0x002236e0                Jz
+                0x002236e4                JRz
+                0x002236e8                Jyt
+                0x002236ec                Jxt
+                0x002236f0                stage
+                0x002236f4                SCREEN
+                0x002236f8                frame_count
+                0x002236fc                timeElapse
+                0x00223700                Bufor6
+                0x00223708                Bufor3
+                0x0022370d                EnableRefresh
+                0x0022370e                st_zaklo
+                0x00223710                Skaler
+                0x00223714                predkosc
+                0x00223718                mode
+                0x0022371c                yt
+                0x0023217c                xt
+                0x00240bdc                y
+                0x0024f63c                x
+                0x0025e09c                s
+                0x0026cafc                dy
+                0x0027b55c                dx
+ .bss           0x00289fbc       0x28 ./src/peripherals.o
+                0x00289fbc                gRawKeys
+                0x00289fc4                ra
+                0x00289fc8                gucModifiers
+                0x00289fcc                JoYAct
+ .bss           0x00289fe4        0x0 ./src/utilities.o
+ .bss           0x00289fe4        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .bss           0x00289fe4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(screen.o)
+ .bss           0x00289fe4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(string.o)
+ .bss           0x00289fe4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspibind.o)
+ .bss           0x00289fe4      0x3f4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(uspienv.o)
+ .bss           0x0028a3d8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util.o)
+ .bss           0x0028a3d8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(util_fast.o)
+ .bss           0x0028a3d8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memory.o)
+ .bss           0x0028a3d8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(pagetable.o)
+ .bss           0x0028a3d8        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionhandler.o)
+ .bss           0x0028a3dc        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(startup.o)
+ .bss           0x0028a3dc       0x14 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(alloc.o)
+ .bss           0x0028a3f0        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmframebuffer.o)
+ .bss           0x0028a3f0        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmpropertytags.o)
+ .bss           0x0028a3f0        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(chargenerator.o)
+ .bss           0x0028a3f0        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(exceptionstub.o)
+ .bss           0x0028a3f0        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(interrupt.o)
+ .bss           0x0028a3f4        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libstub.o)
+ .bss           0x0028a3f4        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(logger.o)
+ .bss           0x0028a3f8        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(memio.o)
+ .bss           0x0028a3f8        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(synchronize.o)
+ .bss           0x0028a400        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(sysinit.o)
+ .bss           0x0028a400        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x0028a404                counter
+ .bss           0x0028a408        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(bcmmailbox.o)
+ .bss           0x0028a408        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(delayloop.o)
+ .bss           0x0028a408        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(libhelper.o)
+ .bss           0x0028a408        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(uspilibrary.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcidevice.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciregister.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcixferstagedata.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevice.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbendpoint.o)
+ .bss           0x0028a40c        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbrequest.o)
+ .bss           0x0028a40c        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(devicenameservice.o)
+ .bss           0x0028a410        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(macaddress.o)
+ .bss           0x0028a410        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(smsc951x.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(util.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmassdevice.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednper.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschedper.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbkeyboard.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhcirootport.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbmouse.o)
+ .bss           0x0028a414        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(dwhciframeschednsplit.o)
+ .bss           0x0028a414        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbgamepad.o)
+                0x0028a414                padDevBusy
+ .bss           0x0028a418        0x8 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(synchronize.o)
+ .bss           0x0028a420        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstring.o)
+ .bss           0x0028a420        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbconfigparser.o)
+ .bss           0x0028a420        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbdevicefactory.o)
+ .bss           0x0028a420        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(usbstandardhub.o)
+ .bss           0x0028a420        0x0 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspi.a(keymap.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_muldf3.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_mulsf3.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(unwind-arm.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(libunwind.o)
+ .bss           0x0028a420        0x0 c:/users/wegne/desktop/studia/osm-laby/smartdev/gcc_none_eabi_cortexa/bin/../lib/gcc/arm-none-eabi/9.2.1\libgcc.a(pr-support.o)
+ COMMON         0x0028a420        0x4 C:\Users\wegne\Desktop\Studia\OSM-laby\gierka\RPiLAB_BASE\Library\libuspienv.a(timer.o)
+                0x0028a420                gpio
+                0x0028a424                __exidx_start = .
 
 .exidx
  *(.exidx*)
-                0x001e8428                __exidx_end = .
-                0x001e8428                _end = .
-                0x001e8428                end = .
+                0x0028a424                __exidx_end = .
+                0x0028a424                _end = .
+                0x0028a424                end = .
 OUTPUT(RPiLAB_BASE.elf elf32-littlearm)
 
 .comment        0x00000000       0xc8
